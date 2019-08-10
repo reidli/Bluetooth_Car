@@ -1,0 +1,935 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 4276
+
+Current time: 	12/27/18 8:29:05 AM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	E:/vivado/Vivado/2015.2/tps/win64/jre
+
+User name: 	zirconi
+User directory: D:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/74733/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/74733/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	194 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 474 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: D:\system\system_ability_2018\system_ability_2018\ip_repo\RGB565\edit_RGB565_v1_0.xpr. Version: Vivado v2015.2 
+// cp:P (cl:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.xpr 
+// [GUI Memory]: 34 MB (+33009kb) [00:00:07]
+// [Engine Memory]: 420 MB (+288451kb) [00:00:07]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 46 MB (+10940kb) [00:00:07]
+// [Engine Memory]: 442 MB (+1410kb) [00:00:07]
+// [Engine Memory]: 470 MB (+5793kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project D:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'd:/system/system_ability_2018/system_ability_2018/ip_repo' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 481 MB. GUI used memory: 34 MB. Current time: 12/27/18 8:29:05 AM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: edit_RGB565_v1_0; location: D:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 749.188 ; gain = 167.480 
+// [GUI Memory]: 49 MB (+242kb) [00:00:11]
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 4); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // A:k (H:JPanel, cl:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // A:k (H:JPanel, cl:JFrame)
+// [GUI Memory]: 54 MB (+3582kb) [00:00:19]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 7, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RGB565_v1_0 (RGB565_v1_0.v)]", 10, true); // A:k (H:JPanel, cl:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RGB565_v1_0 (RGB565_v1_0.v)]", 10); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RGB565_v1_0 (RGB565_v1_0.v), RGB565_v1_0_S00_AXI_inst - RGB565_v1_0_S00_AXI (RGB565_v1_0_S00_AXI.v)]", 11, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RGB565_v1_0 (RGB565_v1_0.v), ova5640 - rgb565_vga (rgb565_vga.v)]", 12, false); // A:k (H:JPanel, cl:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RGB565_v1_0 (RGB565_v1_0.v)]", 10); // A:k (H:JPanel, cl:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 8); // A:k (H:JPanel, cl:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v), RGB565_v1_0_S00_AXI_inst - RGB565_v1_0_S00_AXI (RGB565_v1_0_S00_AXI.v)]", 2, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v), RGB565_v1_0_S00_AXI_inst - RGB565_v1_0_S00_AXI (RGB565_v1_0_S00_AXI.v)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// [Engine Memory]: 503 MB (+10627kb) [00:00:27]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v), ova5640 - rgb565_vga (rgb565_vga.v)]", 3, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 4, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// cp:P (cl:JFrame):  IP Catalog : addNotify
+// [GUI Memory]: 58 MB (+1361kb) [00:00:29]
+// HMemoryUtils.trashcanNow. Engine heap size: 504 MB. GUI used memory: 38 MB. Current time: 12/27/18 8:29:26 AM CST
+dismissDialog("IP Catalog"); // cp:P (cl:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:12.0", 12, "FIFO Generator", 0, true); // O:av (JViewport:JComponent, cl:JFrame) - Node
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:12.0", 12); // O:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:12.0", 12, "FIFO Generator", 0, true, false, false, false, false, true); // O:av (JViewport:JComponent, cl:JFrame) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l:cp (cl:JFrame):  Customize IP : addNotify
+// TclEventType: LOAD_FEATURE
+// [Engine Memory]: 556 MB (+29417kb) [00:00:39]
+// t:P (cl:JFrame): Customize IP: addNotify
+dismissDialog("Customize IP"); // l:cp (cl:JFrame)
+// [GUI Memory]: 64 MB (+2693kb) [00:00:44]
+// [GUI Memory]: 67 MB (+83kb) [00:01:39]
+// [GUI Memory]: 71 MB (+827kb) [00:01:59]
+// [GUI Memory]: 76 MB (+767kb) [00:03:36]
+// Elapsed time: 205 seconds
+dismissDialog("Customize IP"); // t:P (cl:JFrame)
+// Elapsed time: 50 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:12.0", 12, "FIFO Generator", 0, true); // O:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:12.0", 12, "FIFO Generator", 0, true, false, false, false, false, true); // O:av (JViewport:JComponent, cl:JFrame) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l:cp (cl:JFrame):  Customize IP : addNotify
+// t:P (cl:JFrame): Customize IP: addNotify
+dismissDialog("Customize IP"); // l:cp (cl:JFrame)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // aM:g (G:JPanel, t:P)
+// [GUI Memory]: 80 MB (+846kb) [00:05:05]
+// [GUI Memory]: 85 MB (+286kb) [00:05:48]
+// [GUI Memory]: 90 MB (+841kb) [00:06:13]
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 63 MB. Current time: 12/27/18 8:39:56 AM CST
+// [Engine Memory]: 585 MB (+591kb) [00:11:03]
+// Elapsed time: 479 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Status Flags", 2); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Data Counts", 3); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 4); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Status Flags", 2); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Status Flags", 2); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Status Flags", 2); // aM:g (G:JPanel, t:P)
+// Elapsed time: 12 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Data Counts", 3); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 4); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Status Flags", 2); // aM:g (G:JPanel, t:P)
+// Elapsed time: 343 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // aM:g (G:JPanel, t:P)
+// Elapsed time: 38 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Status Flags", 2); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Data Counts", 3); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Status Flags", 2); // aM:g (G:JPanel, t:P)
+selectCheckBox((HResource) null, "Almost Full Flag", true); // h:JCheckBox (m:D, t:P): TRUE
+selectCheckBox((HResource) null, "Almost Empty Flag", true); // h:JCheckBox (m:D, t:P): TRUE
+selectCheckBox((HResource) null, "Almost Full Flag", false); // h:JCheckBox (m:D, t:P): FALSE
+// Elapsed time: 19 seconds
+selectCheckBox((HResource) null, "Almost Full Flag", true); // h:JCheckBox (m:D, t:P): TRUE
+// [Engine Memory]: 642 MB (+29691kb) [00:20:18]
+// HMemoryUtils.trashcanNow. Engine heap size: 642 MB. GUI used memory: 64 MB. Current time: 12/27/18 8:49:16 AM CST
+// Elapsed time: 43 seconds
+selectCheckBox((HResource) null, "Valid Flag", true); // h:JCheckBox (m:D, t:P): TRUE
+selectCheckBox((HResource) null, "Write Acknowledge", true); // h:JCheckBox (m:D, t:P): TRUE
+selectCheckBox((HResource) null, "Write Acknowledge", false); // h:JCheckBox (m:D, t:P): FALSE
+selectCheckBox((HResource) null, "Valid Flag", false); // h:JCheckBox (m:D, t:P): FALSE
+// [GUI Memory]: 96 MB (+1928kb) [00:21:18]
+// [GUI Memory]: 102 MB (+574kb) [00:21:33]
+// Elapsed time: 43 seconds
+selectCheckBox((HResource) null, "Almost Full Flag", false); // h:JCheckBox (m:D, t:P): FALSE
+selectCheckBox((HResource) null, "Almost Empty Flag", false); // h:JCheckBox (m:D, t:P): FALSE
+// [GUI Memory]: 107 MB (+72kb) [00:26:44]
+// Elapsed time: 372 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // aM:g (G:JPanel, t:P)
+// Elapsed time: 17 seconds
+setText("Input Data Width", "16"); // O:ao (aN:N, t:P)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Customize IP"); // t:P (cl:JFrame)
+// TclEventType: CREATE_IP_CORE
+// cp:P (cl:JFrame):  Customize IP : addNotify
+// Tcl Message: create_ip -name fifo_generator -vendor xilinx.com -library ip -version 12.0 -module_name fifo_generator_0 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Input_Data_Width {16} CONFIG.Almost_Full_Flag {false} CONFIG.Almost_Empty_Flag {false} CONFIG.Valid_Flag {false} CONFIG.Write_Acknowledge_Flag {false} CONFIG.Output_Data_Width {16}] [get_ips fifo_generator_0] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_generator_0'... 
+// aB:ag (cl:JFrame): Generate Output Products: addNotify
+dismissDialog("Customize IP"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aB:ag)
+// cp:P (cl:JFrame):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_generator_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'fifo_generator_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'fifo_generator_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_run -jobs 4 fifo_generator_0_synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec 27 08:57:21 2018] Launched fifo_generator_0_synth_1... Run output will be captured here: D:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.runs/fifo_generator_0_synth_1/runme.log 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0_S00_AXI.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("RGB565_v1_0.v", 134, 462); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 48 seconds
+selectCodeEditor("RGB565_v1_0.v", 140, 427); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 123, 446); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 123, 469); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("RGB565_v1_0.v", 150, 464); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 156, 468); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 87, 481); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+selectCodeEditor("RGB565_v1_0.v", 63, 481); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("RGB565_v1_0.v", 95, 479); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 21, 487); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 28, 491); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 114, 486); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 84, 484); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 64, 450); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 115, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 188, 270); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 40 seconds
+selectCodeEditor("RGB565_v1_0.v", 170, 315); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 147, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 163, 333); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 121 MB (+9126kb) [00:31:16]
+selectCodeEditor("RGB565_v1_0.v", 128, 349); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 154, 350); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 127 MB (+298kb) [00:31:23]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo_generator_0 (fifo_generator_0.xci)]", 2); // A:k (H:JPanel, cl:JFrame)
+// ap:bI (cl:JFrame): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:bI)
+dismissDialog("Show IP Hierarchy"); // ap:bI (cl:JFrame)
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo_generator_0 (fifo_generator_0.xci)]", 2, false); // A:k (H:JPanel, cl:JFrame)
+// [GUI Memory]: 136 MB (+2302kb) [00:31:54]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 103, 563); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 146 MB (+4031kb) [00:31:59]
+// [GUI Memory]: 157 MB (+3598kb) [00:32:10]
+// Elapsed time: 32 seconds
+selectCodeEditor("RGB565_v1_0.v", 129, 473); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 93, 520); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("RGB565_v1_0.v", 156, 519); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("RGB565_v1_0.v", 117, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 117, 274, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RGB565_v1_0.v", 110, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 110, 252, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "RGB565_v1_0.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 166 MB (+716kb) [00:33:29]
+selectCodeEditor("RGB565_v1_0.v", 83, 561); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 166, 555); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("RGB565_v1_0.v", 132, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 115, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 17 seconds
+selectCodeEditor("RGB565_v1_0.v", 137, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 137, 219, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "RGB565_v1_0.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 89, 505); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 193, 229); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 193, 229, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RGB565_v1_0.v", 192, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 192, 219, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "RGB565_v1_0.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 89, 554); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 176, 554); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 178, 441); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 452 seconds
+selectCodeEditor("RGB565_v1_0.v", 1166, 325); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 157 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0_S00_AXI.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 141, 332); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 141, 332, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 23 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 178, 323); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 35 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 135, 209); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 141, 189); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 175, 203); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0_S00_AXI.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 142, 326); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 125, 314); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 49, 353); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("RGB565_v1_0.v", 50, 492); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0_S00_AXI.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 379, 190); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0_S00_AXI.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 169, 399); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 142, 351); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 101, 445); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 101, 445, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 203, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 187, 493); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 171, 530); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 150, 549); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 52, 376); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 253, 306); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 63, 401); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 23, 315); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 96, 188); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 113 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 149, 142); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 162, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 162, 197, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 121, 156); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 115, 437); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 116, 446); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 116, 446, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 116, 446); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 89, 447); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 89, 442); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 89, 442, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 78, 179); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 181, 181); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 179, 185); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 158, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 52, 144); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 47, 142); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 643 MB. GUI used memory: 92 MB. Current time: 12/27/18 9:19:16 AM CST
+// Elapsed time: 98 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 949, 291); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 193, 363); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 298, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, "2 critical warnings"); // i:l (CommandBar:DockableBar, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near ;. [D:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/rgb565_1.0/hdl/RGB565_v1_0_S00_AXI.v:18]. ]", 2, false); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near ;. [D:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/rgb565_1.0/hdl/RGB565_v1_0_S00_AXI.v:18]. ]", 2, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\system\system_ability_2018\system_ability_2018\ip_repo\RGB565\rgb565_1.0\hdl\RGB565_v1_0_S00_AXI.v;-;;-;16;-;line;-;18;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 135, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 135, 196, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 242, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("RGB565_v1_0.v", 242, 367); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 165 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v), ova5640 - rgb565_vga (rgb565_vga.v)]", 3, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v), ova5640 - rgb565_vga (rgb565_vga.v)]", 3, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v), ova5640 - rgb565_vga (rgb565_vga.v)]", 3, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("rgb565_vga.v", 168, 271); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("rgb565_vga.v", 52, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("rgb565_vga.v", 52, 276, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "rgb565_vga.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("rgb565_vga.v", 171, 272); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "rgb565_vga.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("rgb565_vga.v", 199, 402); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("rgb565_vga.v", 107, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("rgb565_vga.v", 108, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("rgb565_vga.v", 96, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("rgb565_vga.v", 80, 448); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("rgb565_vga.v", 80, 448, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("rgb565_vga.v", 167, 269); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("RGB565_v1_0.v", 111, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("RGB565_v1_0.v", 93, 459); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 94, 462); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("RGB565_v1_0.v", 120, 481); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("RGB565_v1_0.v", 144, 489); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 127, 460); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 126, 436); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 128, 416); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 135, 390); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 135, 438); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 130, 478); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 96, 488); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 96, 488, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RGB565_v1_0.v", 116, 543); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 77, 548); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 53, 547); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 121, 540); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 150, 540); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0.v", 158, 260); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, "2 critical warnings"); // i:l (CommandBar:DockableBar, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near output. [D:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/new/rgb565_vga.v:31]. ]", 2, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\system\system_ability_2018\system_ability_2018\ip_repo\RGB565\edit_RGB565_v1_0.srcs\sources_1\new\rgb565_vga.v;-;;-;16;-;line;-;31;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("rgb565_vga.v", 145, 185); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("rgb565_vga.v", 164, 154); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0_S00_AXI.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0_S00_AXI.v", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P:a (Workspace:JPanel, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 140, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ap:DockableFrame
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 201, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 140, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 94, 223); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 94, 223, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 108, 333); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 108, 333, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 83, 336); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 83, 336, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 168, 385); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 168, 385, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 107, 429); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 70 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 86, 490); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 53 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 77, 483); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 63, 467); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 99, 507); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 142, 505); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 99, 483); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 84, 446); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 62, 473); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 61, 450); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 50, 446); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 153, 453); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 103, 451); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 78, 447); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 204, 447); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 210 seconds
+selectButton(PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, "2 critical warnings"); // i:l (CommandBar:DockableBar, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near ;. [D:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/rgb565_1.0/hdl/RGB565_v1_0_S00_AXI.v:19]. ]", 2, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\system\system_ability_2018\system_ability_2018\ip_repo\RGB565\rgb565_1.0\hdl\RGB565_v1_0_S00_AXI.v;-;;-;16;-;line;-;19;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 13 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 163, 406); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 158, 401); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 72 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 163, 423); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 163, 423, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 142, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 137, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 268, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 137, 221); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 137, 221, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 198, 224); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 142, 289); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 50, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 152, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 54, 287); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 116, 290); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 62, 302); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 111, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// cp:P (cl:JFrame):  IP Catalog : addNotify
+dismissDialog("IP Catalog"); // cp:P (cl:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:12.0", 12, "FIFO Generator", 0, true); // O:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:12.0", 12, "FIFO Generator", 0, true, false, false, false, false, true); // O:av (JViewport:JComponent, cl:JFrame) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l:cp (cl:JFrame):  Customize IP : addNotify
+// t:P (cl:JFrame): Customize IP: addNotify
+dismissDialog("Customize IP"); // l:cp (cl:JFrame)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // aM:g (G:JPanel, t:P)
+selectCheckBox((HResource) null, "Single Bit Error Injection", true); // h:JCheckBox (m:D, t:P): TRUE
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aM:g (G:JPanel, t:P)
+selectComboBox("Fifo Implementation (Fifo_Implementation)", "Independent Clocks Block RAM", 4); // x:f (G:JPanel, t:P)
+// Elapsed time: 15 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // aM:g (G:JPanel, t:P)
+setText("Input Data Width", "16"); // O:ao (aN:N, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Status Flags", 2); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Status Flags", 2); // aM:g (G:JPanel, t:P)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Data Counts", 3); // aM:g (G:JPanel, t:P)
+selectCheckBox((HResource) null, "Write Data Count (Synchronized with Write Clk)", true); // h:JCheckBox (m:D, t:P): TRUE
+selectCheckBox((HResource) null, "Write Data Count (Synchronized with Write Clk)", false); // h:JCheckBox (m:D, t:P): FALSE
+// Elapsed time: 28 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Customize IP"); // t:P (cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v), RGB565_v1_0_S00_AXI_inst - RGB565_v1_0_S00_AXI (RGB565_v1_0_S00_AXI.v)]", 2); // A:k (H:JPanel, cl:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v), RGB565_v1_0_S00_AXI_inst - RGB565_v1_0_S00_AXI (RGB565_v1_0_S00_AXI.v)]", 2); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v), RGB565_v1_0_S00_AXI_inst - RGB565_v1_0_S00_AXI (RGB565_v1_0_S00_AXI.v)]", 2); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v), RGB565_v1_0_S00_AXI_inst - RGB565_v1_0_S00_AXI (RGB565_v1_0_S00_AXI.v), fifo - fifo_generator_0 (fifo_generator_0.xci)]", 3, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v), RGB565_v1_0_S00_AXI_inst - RGB565_v1_0_S00_AXI (RGB565_v1_0_S00_AXI.v), fifo - fifo_generator_0 (fifo_generator_0.xci)]", 3, false, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// az:P (cl:JFrame): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // h:JCheckBox (JPanel:JComponent, az:P): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, az:P)
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Remove Sources"); // az:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files -fileset fifo_generator_0 d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci 
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_DELETE
+// Tcl Message: delete_fileset fifo_generator_0 
+// Tcl Message: file delete -force d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// cp:P (cl:JFrame):  IP Catalog : addNotify
+dismissDialog("IP Catalog"); // cp:P (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// cp:P (cl:JFrame):  IP Catalog : addNotify
+dismissDialog("IP Catalog"); // cp:P (cl:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:12.0", 12, "FIFO Generator", 0, true); // O:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:12.0", 12, "FIFO Generator", 0, true, false, false, false, false, true); // O:av (JViewport:JComponent, cl:JFrame) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l:cp (cl:JFrame):  Customize IP : addNotify
+// t:P (cl:JFrame): Customize IP: addNotify
+dismissDialog("Customize IP"); // l:cp (cl:JFrame)
+selectComboBox("Fifo Implementation (Fifo_Implementation)", "Independent Clocks Block RAM", 4); // x:f (G:JPanel, t:P)
+// Elapsed time: 80 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // aM:g (G:JPanel, t:P)
+setText("Input Data Width", "16"); // O:ao (aN:N, t:P)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Customize IP"); // t:P (cl:JFrame)
+// TclEventType: CREATE_IP_CORE
+// cp:P (cl:JFrame):  Customize IP : addNotify
+// Tcl Message: create_ip -name fifo_generator -vendor xilinx.com -library ip -version 12.0 -module_name fifo_generator_0 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Fifo_Implementation {Independent_Clocks_Block_RAM} CONFIG.Input_Data_Width {16} CONFIG.Output_Data_Width {16} CONFIG.Full_Threshold_Assert_Value {1021} CONFIG.Full_Threshold_Negate_Value {1020}] [get_ips fifo_generator_0] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_generator_0'... 
+// aB:ag (cl:JFrame): Generate Output Products: addNotify
+dismissDialog("Customize IP"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 23 seconds
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aB:ag)
+// cp:P (cl:JFrame):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_generator_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'fifo_generator_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'fifo_generator_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_run -jobs 4 fifo_generator_0_synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec 27 09:38:47 2018] Launched fifo_generator_0_synth_1... Run output will be captured here: D:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.runs/fifo_generator_0_synth_1/runme.log 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFOs ;  ;  ;  ; ", 11, "FIFOs", 0, false); // O:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Memories & Storage Elements ;  ;  ;  ; ", 10, "Memories & Storage Elements", 0, true); // O:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI-Stream FIFO ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:axi_fifo_mm_s:4.1", 8, "AXI-Stream FIFO", 0, false); // O:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Embedded Processing ;  ;  ;  ; ", 6, "Embedded Processing", 0, true); // O:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Virtual FIFO Controller ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:axi_vfifo_ctrl:2.0", 5, "AXI Virtual FIFO Controller", 0, false); // O:av (JViewport:JComponent, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v), RGB565_v1_0_S00_AXI_inst - RGB565_v1_0_S00_AXI (RGB565_v1_0_S00_AXI.v), fifo - fifo_generator_0 (fifo_generator_0.xci)]", 3); // A:k (H:JPanel, cl:JFrame)
+// ap:bI (cl:JFrame): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:bI)
+dismissDialog("Show IP Hierarchy"); // ap:bI (cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RGB565_v1_0 (RGB565_v1_0.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "rgb565_vga.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("rgb565_vga.v", 142, 269); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0_S00_AXI.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 52, 310); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:12.0", 12, "FIFO Generator", 0, true); // O:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:12.0", 12, "FIFO Generator", 0, true, false, false, false, false, true); // O:av (JViewport:JComponent, cl:JFrame) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l:cp (cl:JFrame):  Customize IP : addNotify
+// t:P (cl:JFrame): Customize IP: addNotify
+dismissDialog("Customize IP"); // l:cp (cl:JFrame)
+selectComboBox("Fifo Implementation (Fifo_Implementation)", "Independent Clocks Block RAM", 4); // x:f (G:JPanel, t:P)
+dismissDialog("Customize IP"); // t:P (cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0_S00_AXI.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 135, 313); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 143, 312); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 72, 313); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 153, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 99, 333); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 18 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 163, 278); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 163, 278, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 94, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 186, 277); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 61, 321); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 129, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 180 MB (+6025kb) [01:11:46]
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 119, 328); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 56, 426); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 102, 372); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 200 MB (+11365kb) [01:11:56]
+// Elapsed time: 96 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 39, 121); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 39, 121, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// [GUI Memory]: 210 MB (+752kb) [01:13:37]
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 123, 127); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 107, 390); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 95, 369); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 65, 214); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 38 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 70, 140); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 70, 140, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 89, 397); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 131, 410); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 144, 407); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 229 MB (+8468kb) [01:14:42]
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 44, 435); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 77, 423); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 77, 423, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 93, 426); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 102, 430); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 47, 459); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 186, 351); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 290, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 171, 353); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 198, 236); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 80, 216); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 78, 239); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 88, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 138, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 176, 335); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 183, 328); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 90 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 203, 279); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 62 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 176, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 149, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 191, 205); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 168, 201); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 213, 221); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 79 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0_S00_AXI.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 53 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 67, 185); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 67, 185, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 148, 185); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 148, 185, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 224, 181); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 224, 181, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 289, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 289, 178, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 415, 183); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 415, 183, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "rgb565_vga.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RGB565_v1_0_S00_AXI.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 646 MB. GUI used memory: 131 MB. Current time: 12/27/18 9:49:16 AM CST
+// Elapsed time: 31 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 199, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 117, 96); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 100, 288); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 145, 309); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "RGB565_v1_0_S00_AXI.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+minimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // ap:DockableFrame (FrameContainer:JideTabbedPane, cl:JFrame)
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 70, 524); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 101, 472); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 297 seconds
+selectCodeEditor("RGB565_v1_0_S00_AXI.v", 430, 371); // bj:J (JPanel:JComponent, cl:JFrame)

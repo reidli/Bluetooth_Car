@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Dec 27 10:04:38 2018
+# Process ID: 12308
+# Log file: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/vivado.log
+# Journal file: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.xpr
+open_bd_design {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:gig_ethernet_pcs_pma:15.0 gig_ethernet_pcs_pma_0
+endgroup
+delete_bd_objs [get_bd_cells gig_ethernet_pcs_pma_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:ila:5.1 ila_0
+endgroup
+set_property location {7 2498 1006} [get_bd_cells ila_0]
+set_property location {7 2511 881} [get_bd_cells ila_0]
+set_property location {7 2497 920} [get_bd_cells ila_0]
+set_property location {7 2478 707} [get_bd_cells ila_0]
+set_property location {7 2505 843} [get_bd_cells ila_0]
+set_property location {8 2683 856} [get_bd_cells ila_0]
+set_property location {7 2673 895} [get_bd_cells ila_0]
+undo
+set_property location {7 2659 1005} [get_bd_cells ila_0]
+set_property location {7 2688 1199} [get_bd_cells ila_0]
+set_property location {7 2666 1061} [get_bd_cells ila_0]
+set_property location {7 2673 759} [get_bd_cells ila_0]
+set_property location {6.5 2519 761} [get_bd_cells ila_0]
+set_property location {7 2480 846} [get_bd_cells ila_0]
+startgroup
+set_property -dict [list CONFIG.C_PROBE0_WIDTH {32} CONFIG.C_DATA_DEPTH {1024} CONFIG.C_NUM_OF_PROBES {1} CONFIG.C_TRIGOUT_EN {false} CONFIG.C_INPUT_PIPE_STAGES {0} CONFIG.C_TRIGIN_EN {false} CONFIG.C_MONITOR_TYPE {Native} CONFIG.C_ENABLE_ILA_AXI_MON {false}] [get_bd_cells ila_0]
+endgroup
+set_property location {7 2539 834} [get_bd_cells ila_0]
+set_property location {7 2492 832} [get_bd_cells ila_0]
+set_property location {7 2509 808} [get_bd_cells ila_0]
+set_property location {7 2516 765} [get_bd_cells ila_0]
+set_property location {7 2524 870} [get_bd_cells ila_0]
+set_property location {7 2498 748} [get_bd_cells ila_0]
+connect_bd_net [get_bd_pins ila_0/probe0] [get_bd_pins axi_iic_0/sda_o]
+set_property location {7 2510 863} [get_bd_cells ila_0]
+set_property location {7 2519 817} [get_bd_cells ila_0]
+set_property location {7 2515 834} [get_bd_cells ila_0]
+set_property location {7 2519 853} [get_bd_cells ila_0]
+set_property location {7 2513 830} [get_bd_cells ila_0]
+startgroup
+set_property -dict [list CONFIG.C_TRIGIN_EN {true}] [get_bd_cells ila_0]
+endgroup
+connect_bd_net [get_bd_pins axi_iic_0/scl_o] [get_bd_pins ila_0/clk]
+startgroup
+set_property -dict [list CONFIG.C_EN_STRG_QUAL {1} CONFIG.C_ADV_TRIGGER {false} CONFIG.C_PROBE0_MU_CNT {2} CONFIG.ALL_PROBE_SAME_MU {true} CONFIG.ALL_PROBE_SAME_MU_CNT {2}] [get_bd_cells ila_0]
+endgroup
+set_property location {7 2523 846} [get_bd_cells ila_0]
+startgroup
+set_property -dict [list CONFIG.C_TRIGOUT_EN {false} CONFIG.C_ADV_TRIGGER {true} CONFIG.C_MONITOR_TYPE {AXI} CONFIG.C_PROBE0_WIDTH {1} CONFIG.C_NUM_OF_PROBES {45} CONFIG.C_PROBE44_MU_CNT {2} CONFIG.C_PROBE43_MU_CNT {2} CONFIG.C_PROBE42_MU_CNT {2} CONFIG.C_PROBE41_MU_CNT {2} CONFIG.C_PROBE40_MU_CNT {2} CONFIG.C_PROBE39_MU_CNT {2} CONFIG.C_PROBE38_MU_CNT {2} CONFIG.C_PROBE37_MU_CNT {2} CONFIG.C_PROBE36_MU_CNT {2} CONFIG.C_PROBE35_MU_CNT {2} CONFIG.C_PROBE34_MU_CNT {2} CONFIG.C_PROBE33_MU_CNT {2} CONFIG.C_PROBE32_MU_CNT {2} CONFIG.C_PROBE31_MU_CNT {2} CONFIG.C_PROBE30_MU_CNT {2} CONFIG.C_PROBE29_MU_CNT {2} CONFIG.C_PROBE28_MU_CNT {2} CONFIG.C_PROBE27_MU_CNT {2} CONFIG.C_PROBE26_MU_CNT {2} CONFIG.C_PROBE25_MU_CNT {2} CONFIG.C_PROBE24_MU_CNT {2} CONFIG.C_PROBE23_MU_CNT {2} CONFIG.C_PROBE22_MU_CNT {2} CONFIG.C_PROBE21_MU_CNT {2} CONFIG.C_PROBE20_MU_CNT {2} CONFIG.C_PROBE19_MU_CNT {2} CONFIG.C_PROBE18_MU_CNT {2} CONFIG.C_PROBE17_MU_CNT {2} CONFIG.C_PROBE16_MU_CNT {2} CONFIG.C_PROBE15_MU_CNT {2} CONFIG.C_PROBE14_MU_CNT {2} CONFIG.C_PROBE13_MU_CNT {2} CONFIG.C_PROBE12_MU_CNT {2} CONFIG.C_PROBE11_MU_CNT {2} CONFIG.C_PROBE10_MU_CNT {2} CONFIG.C_PROBE9_MU_CNT {2} CONFIG.C_PROBE8_MU_CNT {2} CONFIG.C_PROBE7_MU_CNT {2} CONFIG.C_PROBE6_MU_CNT {2} CONFIG.C_PROBE5_MU_CNT {2} CONFIG.C_PROBE4_MU_CNT {2} CONFIG.C_PROBE3_MU_CNT {2} CONFIG.C_PROBE2_MU_CNT {2} CONFIG.C_PROBE1_MU_CNT {2} CONFIG.C_ENABLE_ILA_AXI_MON {true}] [get_bd_cells ila_0]
+endgroup
+delete_bd_objs [get_bd_nets axi_iic_0_sda_o]
+delete_bd_objs [get_bd_nets axi_iic_0_scl_o]
+connect_bd_intf_net [get_bd_intf_pins ila_0/SLOT_0_AXI] [get_bd_intf_pins axi_iic_0/S_AXI]
+connect_bd_net -net [get_bd_nets MIPS_MicroAptiv_UP_0_HCLK] [get_bd_pins ila_0/clk] [get_bd_pins MIPS_MicroAptiv_UP_0/HCLK]
+startgroup
+set_property -dict [list CONFIG.C_SLOT_0_AXI_ID_WIDTH.VALUE_SRC PROPAGATED] [get_bd_cells ila_0]
+set_property -dict [list CONFIG.C_TRIGIN_EN {false} CONFIG.ALL_PROBE_SAME_MU_CNT {2} CONFIG.C_MONITOR_TYPE {AXI} CONFIG.C_NUM_OF_PROBES {45} CONFIG.C_PROBE44_MU_CNT {2} CONFIG.C_PROBE43_MU_CNT {2} CONFIG.C_PROBE42_MU_CNT {2} CONFIG.C_PROBE41_MU_CNT {2} CONFIG.C_PROBE40_MU_CNT {2} CONFIG.C_PROBE39_MU_CNT {2} CONFIG.C_PROBE38_MU_CNT {2} CONFIG.C_PROBE37_MU_CNT {2} CONFIG.C_PROBE36_MU_CNT {2} CONFIG.C_PROBE35_MU_CNT {2} CONFIG.C_PROBE34_MU_CNT {2} CONFIG.C_PROBE33_MU_CNT {2} CONFIG.C_PROBE32_MU_CNT {2} CONFIG.C_PROBE31_MU_CNT {2} CONFIG.C_PROBE30_MU_CNT {2} CONFIG.C_PROBE29_MU_CNT {2} CONFIG.C_PROBE28_MU_CNT {2} CONFIG.C_PROBE27_MU_CNT {2} CONFIG.C_PROBE26_MU_CNT {2} CONFIG.C_PROBE25_MU_CNT {2} CONFIG.C_PROBE24_MU_CNT {2} CONFIG.C_PROBE23_MU_CNT {2} CONFIG.C_PROBE22_MU_CNT {2} CONFIG.C_PROBE21_MU_CNT {2} CONFIG.C_PROBE20_MU_CNT {2} CONFIG.C_PROBE19_MU_CNT {2} CONFIG.C_PROBE18_MU_CNT {2} CONFIG.C_PROBE17_MU_CNT {2} CONFIG.C_PROBE16_MU_CNT {2} CONFIG.C_PROBE15_MU_CNT {2} CONFIG.C_PROBE14_MU_CNT {2} CONFIG.C_PROBE13_MU_CNT {2} CONFIG.C_PROBE12_MU_CNT {2} CONFIG.C_PROBE11_MU_CNT {2} CONFIG.C_PROBE10_MU_CNT {2} CONFIG.C_PROBE9_MU_CNT {2} CONFIG.C_PROBE8_MU_CNT {2} CONFIG.C_PROBE7_MU_CNT {2} CONFIG.C_PROBE6_MU_CNT {2} CONFIG.C_PROBE5_MU_CNT {2} CONFIG.C_PROBE4_MU_CNT {2} CONFIG.C_PROBE3_MU_CNT {2} CONFIG.C_PROBE2_MU_CNT {2} CONFIG.C_PROBE1_MU_CNT {2} CONFIG.C_PROBE0_MU_CNT {2} CONFIG.C_ENABLE_ILA_AXI_MON {true}] [get_bd_cells ila_0]
+endgroup
+save_bd_design

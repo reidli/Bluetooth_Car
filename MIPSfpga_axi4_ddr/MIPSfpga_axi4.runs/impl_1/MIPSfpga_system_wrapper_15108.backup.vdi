@@ -1,0 +1,373 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Dec 24 10:19:35 2018
+# Process ID: 9316
+# Log file: D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper.vdi
+# Journal file: D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source MIPSfpga_system_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 1034 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_gpio_0_0/MIPSfpga_system_axi_gpio_0_0_board.xdc] for cell 'MIPSfpga_system_i/axi_gpio_0/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_gpio_0_0/MIPSfpga_system_axi_gpio_0_0_board.xdc] for cell 'MIPSfpga_system_i/axi_gpio_0/U0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_gpio_0_0/MIPSfpga_system_axi_gpio_0_0.xdc] for cell 'MIPSfpga_system_i/axi_gpio_0/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_gpio_0_0/MIPSfpga_system_axi_gpio_0_0.xdc] for cell 'MIPSfpga_system_i/axi_gpio_0/U0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_clk_wiz_0_0/MIPSfpga_system_clk_wiz_0_0_board.xdc] for cell 'MIPSfpga_system_i/clk_wiz_0/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_clk_wiz_0_0/MIPSfpga_system_clk_wiz_0_0_board.xdc] for cell 'MIPSfpga_system_i/clk_wiz_0/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_clk_wiz_0_0/MIPSfpga_system_clk_wiz_0_0.xdc] for cell 'MIPSfpga_system_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_clk_wiz_0_0/MIPSfpga_system_clk_wiz_0_0.xdc:56]
+INFO: [Timing 38-2] Deriving generated clocks [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_clk_wiz_0_0/MIPSfpga_system_clk_wiz_0_0.xdc:56]
+get_clocks: Time (s): cpu = 00:00:19 ; elapsed = 00:00:18 . Memory (MB): peak = 1219.844 ; gain = 518.105
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_clk_wiz_0_0/MIPSfpga_system_clk_wiz_0_0.xdc] for cell 'MIPSfpga_system_i/clk_wiz_0/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_0_0/MIPSfpga_system_axi_uart16550_0_0_board.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_0/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_0_0/MIPSfpga_system_axi_uart16550_0_0_board.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_0/U0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_0_0/MIPSfpga_system_axi_uart16550_0_0.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_0/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_0_0/MIPSfpga_system_axi_uart16550_0_0.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_0/U0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_mig_7series_0_0/MIPSfpga_system_mig_7series_0_0/user_design/constraints/MIPSfpga_system_mig_7series_0_0.xdc] for cell 'MIPSfpga_system_i/mig_7series_0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_mig_7series_0_0/MIPSfpga_system_mig_7series_0_0/user_design/constraints/MIPSfpga_system_mig_7series_0_0.xdc] for cell 'MIPSfpga_system_i/mig_7series_0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_intc_0_0/MIPSfpga_system_axi_intc_0_0.xdc] for cell 'MIPSfpga_system_i/axi_intc_0/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_intc_0_0/MIPSfpga_system_axi_intc_0_0.xdc] for cell 'MIPSfpga_system_i/axi_intc_0/U0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_1_0/MIPSfpga_system_axi_uart16550_1_0_board.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_1/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_1_0/MIPSfpga_system_axi_uart16550_1_0_board.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_1/U0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_1_0/MIPSfpga_system_axi_uart16550_1_0.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_1/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_1_0/MIPSfpga_system_axi_uart16550_1_0.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_1/U0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_iic_0_0/MIPSfpga_system_axi_iic_0_0_board.xdc] for cell 'MIPSfpga_system_i/axi_iic_0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_iic_0_0/MIPSfpga_system_axi_iic_0_0_board.xdc] for cell 'MIPSfpga_system_i/axi_iic_0'
+Parsing XDC File [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc]
+WARNING: [Vivado 12-584] No ports matched 'vga_in[4]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_in[5]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_in[6]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_in[7]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_in[0]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_in[1]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_in[2]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_in[3]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_out[5]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:163]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:163]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_out[6]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:164]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:164]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_out[7]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:165]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:165]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_out[2]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:168]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:168]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_out[3]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:169]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:169]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_out[4]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:170]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:170]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_out[0]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:174]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:174]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_out[1]'. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:175]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc:175]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc]
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_intc_0_0/MIPSfpga_system_axi_intc_0_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_intc_0/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_intc_0_0/MIPSfpga_system_axi_intc_0_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_intc_0/U0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_0/MIPSfpga_system_auto_ds_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m00_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_0/MIPSfpga_system_auto_ds_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m00_couplers/auto_ds/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_1/MIPSfpga_system_auto_ds_1_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m01_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_1/MIPSfpga_system_auto_ds_1_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m01_couplers/auto_ds/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_2/MIPSfpga_system_auto_ds_2_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m02_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_2/MIPSfpga_system_auto_ds_2_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m02_couplers/auto_ds/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_cc_0/MIPSfpga_system_auto_cc_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m03_couplers/auto_cc/inst'
+INFO: [Timing 38-2] Deriving generated clocks [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_cc_0/MIPSfpga_system_auto_cc_0_clocks.xdc:16]
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_cc_0/MIPSfpga_system_auto_cc_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m03_couplers/auto_cc/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_3/MIPSfpga_system_auto_ds_3_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m04_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_3/MIPSfpga_system_auto_ds_3_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m04_couplers/auto_ds/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_4/MIPSfpga_system_auto_ds_4_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m05_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_4/MIPSfpga_system_auto_ds_4_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m05_couplers/auto_ds/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_5/MIPSfpga_system_auto_ds_5_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m06_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_5/MIPSfpga_system_auto_ds_5_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m06_couplers/auto_ds/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_6/MIPSfpga_system_auto_ds_6_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m07_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_6/MIPSfpga_system_auto_ds_6_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m07_couplers/auto_ds/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_7/MIPSfpga_system_auto_ds_7_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m08_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_7/MIPSfpga_system_auto_ds_7_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m08_couplers/auto_ds/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_us_0/MIPSfpga_system_auto_us_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_us_0/MIPSfpga_system_auto_us_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/s00_couplers/auto_us/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 317 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 24 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 272 instances
+
+link_design: Time (s): cpu = 00:00:54 ; elapsed = 00:00:53 . Memory (MB): peak = 1224.895 ; gain = 1006.879
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.800 . Memory (MB): peak = 1224.895 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 3 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: f660cdd1
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1224.895 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 11 inverter(s) to 50 load pin(s).
+INFO: [Opt 31-10] Eliminated 1646 cells.
+Phase 2 Constant Propagation | Checksum: 19e1bbd02
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1224.895 ; gain = 0.000
+
+Phase 3 Sweep
+WARNING: [Opt 31-6] Deleting driverless net: MIPSfpga_system_i/mig_7series_0/u_MIPSfpga_system_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/USE_UPSIZER.upsizer_d2/USE_READ.read_data_inst/USE_FPGA_LAST_WORD.last_beat_curr_word_inst/last_beat_ii.
+WARNING: [Opt 31-6] Deleting driverless net: MIPSfpga_system_i/mig_7series_0/u_MIPSfpga_system_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/USE_UPSIZER.upsizer_d2/USE_READ.read_data_inst/USE_FPGA_WORD_COMPLETED.next_word_wrap_inst/next_word_wrap.
+WARNING: [Opt 31-6] Deleting driverless net: MIPSfpga_system_i/mig_7series_0/u_MIPSfpga_system_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/USE_UPSIZER.upsizer_d2/USE_WRITE.write_data_inst/USE_FPGA_WORD_COMPLETED.next_word_wrap_inst/next_word_wrap.
+INFO: [Opt 31-12] Eliminated 5990 unconnected nets.
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-11] Eliminated 4809 unconnected cells.
+Phase 3 Sweep | Checksum: 156b12905
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1224.895 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.163 . Memory (MB): peak = 1224.895 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 156b12905
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1224.895 ; gain = 0.000
+Implement Debug Cores | Checksum: 164d22719
+Logic Optimization | Checksum: 164d22719
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 3.13 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 35 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 70
+Ending PowerOpt Patch Enables Task | Checksum: 156b12905
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 1484.945 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 156b12905
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1484.945 ; gain = 260.051
+INFO: [Common 17-83] Releasing license: Implementation
+28 Infos, 19 Warnings, 16 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1484.945 ; gain = 260.051
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.111 . Memory (MB): peak = 1484.945 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:19 ; elapsed = 00:00:12 . Memory (MB): peak = 1484.945 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper_drc_opted.rpt.
+report_drc: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1484.945 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Runtime Estimator
+Phase 1 Placer Runtime Estimator | Checksum: c5fc31c5
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.851 . Memory (MB): peak = 1484.945 ; gain = 0.000
+
+Phase 2 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.185 . Memory (MB): peak = 1484.945 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.203 . Memory (MB): peak = 1484.945 ; gain = 0.000
+
+Phase 2.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 2.1.1 Pre-Place Cells
+Phase 2.1.1 Pre-Place Cells | Checksum: f1f16d40
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1484.945 ; gain = 0.000
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (16) is greater than number of available sites (14).
+The following Groups of I/O terminals have not sufficient capacity: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 1 Drv: 12  has only 14 sites available on device, but needs 16 sites.
+	Term: gpo[0]
+	Term: gpo[1]
+	Term: gpo[2]
+	Term: gpo[3]
+	Term: gpo[4]
+	Term: gpo[5]
+	Term: gpo[6]
+	Term: gpo[7]
+	Term: vgaout[0]
+	Term: vgaout[1]
+	Term: vgaout[2]
+	Term: vgaout[3]
+	Term: vgaout[4]
+	Term: vgaout[5]
+	Term: vgaout[6]
+	Term: vgaout[7]
+
+
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 14 |    50 |    15 | LVCMOS33(15)                                                           |                                          |        |  +3.30 |    YES |     |
+| 15 |    50 |    18 | LVCMOS33(18)                                                           |                                          |        |  +3.30 |    YES |     |
+| 16 |    10 |     0 |                                                                        |                                          |        |        |        |     |
+| 34 |    50 |    46 | DIFF_SSTL18_II(6)  SSTL18_II(40)                                       |                                          |  +0.90 |  +1.80 |    YES |     |
+| 35 |    50 |    13 | LVCMOS33(13)                                                           |                                          |        |  +3.30 |    YES |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   210 |    92 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 14     | LED[10]              | LVCMOS33        | IOB_X0Y56            | U14                  |                      |
+|        | LED[11]              | LVCMOS33        | IOB_X0Y69            | T16                  |                      |
+|        | LED[12]              | LVCMOS33        | IOB_X0Y68            | V15                  |                      |
+|        | LED[13]              | LVCMOS33        | IOB_X0Y55            | V14                  |                      |
+|        | LED[14]              | LVCMOS33        | IOB_X0Y59            | V12                  |                      |
+|        | LED[15]              | LVCMOS33        | IOB_X0Y57            | V11                  |                      |
+|        | LED[3]               | LVCMOS33        | IOB_X0Y84            | N14                  |                      |
+|        | LED[4]               | LVCMOS33        | IOB_X0Y86            | R18                  |                      |
+|        | LED[5]               | LVCMOS33        | IOB_X0Y63            | V17                  |                      |
+|        | LED[6]               | LVCMOS33        | IOB_X0Y66            | U17                  |                      |
+|        | LED[7]               | LVCMOS33        | IOB_X0Y64            | U16                  |                      |
+|        | LED[8]               | LVCMOS33        | IOB_X0Y67            | V16                  |                      |
+|        | LED[9]               | LVCMOS33        | IOB_X0Y71            | T15                  |                      |
+|        | PWMs[0]              | LVCMOS33        | IOB_X0Y78            | N15                  |                      |
+|        | PWMs[1]              | LVCMOS33        | IOB_X0Y77            | N16                  |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 15     | CPU_RESETN           | LVCMOS33        | IOB_X0Y144           | C12                  |                      |
+|        | JB1                  | LVCMOS33        | IOB_X0Y148           | D14                  |                      |
+|        | JB2                  | LVCMOS33        | IOB_X0Y121           | F16                  |                      |
+|        | JB3                  | LVCMOS33        | IOB_X0Y123           | G16                  |                      |
+|        | JB4                  | LVCMOS33        | IOB_X0Y120           | H14                  |                      |
+|        | JB7                  | LVCMOS33        | IOB_X0Y127           | E16                  |                      |
+|        | JB8                  | LVCMOS33        | IOB_X0Y140           | F13                  |                      |
+|        | LED[0]               | LVCMOS33        | IOB_X0Y114           | H17                  |                      |
+|        | LED[1]               | LVCMOS33        | IOB_X0Y102           | K15                  |                      |
+|        | LED[2]               | LVCMOS33        | IOB_X0Y115           | J13                  |                      |
+|        | hs_in                | LVCMOS33        | IOB_X0Y133           | A16                  |                      |
+|        | hs_out               | LVCMOS33        | IOB_X0Y142           | B11                  |                      |
+|        | sencer_scl_io        | LVCMOS33        | IOB_X0Y131           | A14                  |                      |
+|        | sencer_sda_io        | LVCMOS33        | IOB_X0Y132           | A13                  |                      |
+|        | sxtrest[0]           | LVCMOS33        | IOB_X0Y135           | B17                  |                      |
+|        | vs_in                | LVCMOS33        | IOB_X0Y134           | A15                  |                      |
+|        | vs_out               | LVCMOS33        | IOB_X0Y143           | B12                  |                      |
+|        | xclk                 | LVCMOS33        | IOB_X0Y136           | B16                  |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 34     | DDR2_SDRAM_ck_p[0]   | DIFF_SSTL18_II  | IOB_X1Y88            | L6                   |                      |
+|        | DDR2_SDRAM_ck_n[0]   | DIFF_SSTL18_II  | IOB_X1Y87            | L5                   | *                    |
+|        | DDR2_SDRAM_dqs_p[0]  | DIFF_SSTL18_II  | IOB_X1Y58            | U9                   |                      |
+|        | DDR2_SDRAM_dqs_n[0]  | DIFF_SSTL18_II  | IOB_X1Y57            | V9                   |                      |
+|        | DDR2_SDRAM_dqs_p[1]  | DIFF_SSTL18_II  | IOB_X1Y82            | U2                   |                      |
+|        | DDR2_SDRAM_dqs_n[1]  | DIFF_SSTL18_II  | IOB_X1Y81            | V2                   |                      |
+|        | DDR2_SDRAM_addr[0]   | SSTL18_II       | IOB_X1Y68            | M4                   | VRef=+0.90           |
+|        | DDR2_SDRAM_addr[10]  | SSTL18_II       | IOB_X1Y69            | R2                   | VRef=+0.90           |
+|        | DDR2_SDRAM_addr[11]  | SSTL18_II       | IOB_X1Y90            | K5                   | VRef=+0.90           |
+|        | DDR2_SDRAM_addr[12]  | SSTL18_II       | IOB_X1Y63            | N6                   | VRef=+0.90           |
+|        | DDR2_SDRAM_addr[1]   | SSTL18_II       | IOB_X1Y72            | P4                   | VRef=+0.90           |
+|        | DDR2_SDRAM_addr[2]   | SSTL18_II       | IOB_X1Y64            | M6                   | VRef=+0.90           |
+|        | DDR2_SDRAM_addr[3]   | SSTL18_II       | IOB_X1Y65            | T1                   | VRef=+0.90           |
+|        | DDR2_SDRAM_addr[4]   | SSTL18_II       | IOB_X1Y95            | L3                   | VRef=+0.90           |
+|        | DDR2_SDRAM_addr[5]   | SSTL18_II       | IOB_X1Y73            | P5                   | VRef=+0.90           |
+|        | DDR2_SDRAM_addr[6]   | SSTL18_II       | IOB_X1Y91            | M2                   | VRef=+0.90           |
+|        | DDR2_SDRAM_addr[7]   | SSTL18_II       | IOB_X1Y93            | N1                   | VRef=+0.90           |
+|        | DDR2_SDRAM_addr[8]   | SSTL18_II       | IOB_X1Y89            | L4                   | VRef=+0.90           |
+|        | DDR2_SDRAM_addr[9]   | SSTL18_II       | IOB_X1Y74            | N5                   | VRef=+0.90           |
+|        | DDR2_SDRAM_ba[0]     | SSTL18_II       | IOB_X1Y70            | P2                   | VRef=+0.90           |
+|        | DDR2_SDRAM_ba[1]     | SSTL18_II       | IOB_X1Y71            | P3                   | VRef=+0.90           |
+|        | DDR2_SDRAM_ba[2]     | SSTL18_II       | IOB_X1Y66            | R1                   | VRef=+0.90           |
+|        | DDR2_SDRAM_cas_n     | SSTL18_II       | IOB_X1Y98            | L1                   | VRef=+0.90           |
+|        | DDR2_SDRAM_cke[0]    | SSTL18_II       | IOB_X1Y97            | M1                   | VRef=+0.90           |
+|        | DDR2_SDRAM_cs_n[0]   | SSTL18_II       | IOB_X1Y99            | K6                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dm[0]     | SSTL18_II       | IOB_X1Y53            | T6                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dm[1]     | SSTL18_II       | IOB_X1Y86            | U1                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dq[0]     | SSTL18_II       | IOB_X1Y54            | R7                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dq[10]    | SSTL18_II       | IOB_X1Y80            | V5                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dq[11]    | SSTL18_II       | IOB_X1Y84            | U4                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dq[12]    | SSTL18_II       | IOB_X1Y79            | V4                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dq[13]    | SSTL18_II       | IOB_X1Y75            | T4                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dq[14]    | SSTL18_II       | IOB_X1Y85            | V1                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dq[15]    | SSTL18_II       | IOB_X1Y77            | T3                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dq[1]     | SSTL18_II       | IOB_X1Y59            | V6                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dq[2]     | SSTL18_II       | IOB_X1Y52            | R8                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dq[3]     | SSTL18_II       | IOB_X1Y56            | U7                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dq[4]     | SSTL18_II       | IOB_X1Y60            | V7                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dq[5]     | SSTL18_II       | IOB_X1Y62            | R6                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dq[6]     | SSTL18_II       | IOB_X1Y55            | U6                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dq[7]     | SSTL18_II       | IOB_X1Y61            | R5                   | VRef=+0.90*          |
+|        | DDR2_SDRAM_dq[8]     | SSTL18_II       | IOB_X1Y76            | T5                   | VRef=+0.90           |
+|        | DDR2_SDRAM_dq[9]     | SSTL18_II       | IOB_X1Y83            | U3                   | VRef=+0.90           |
+|        | DDR2_SDRAM_odt[0]    | SSTL18_II       | IOB_X1Y92            | M3                   | VRef=+0.90           |
+|        | DDR2_SDRAM_ras_n     | SSTL18_II       | IOB_X1Y67            | N4                   | VRef=+0.90           |
+|        | DDR2_SDRAM_we_n      | SSTL18_II       | IOB_X1Y94            | N2                   | VRef=+0.90           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 35     | CLK100MHZ            | LVCMOS33        | IOB_X1Y126           | E3                   |                      |
+|        | Dir_clk              | LVCMOS33        | IOB_X1Y138           | E7                   |                      |
+|        | Dir_enable           | LVCMOS33        | IOB_X1Y106           | J3                   |                      |
+|        | Dir_latch            | LVCMOS33        | IOB_X1Y140           | E6                   |                      |
+|        | Dir_serial           | LVCMOS33        | IOB_X1Y108           | J4                   |                      |
+|        | Pwm0A                | LVCMOS33        | IOB_X1Y112           | G6                   |                      |
+|        | Pwm0B                | LVCMOS33        | IOB_X1Y105           | J2                   |                      |
+|        | Pwm2A                | LVCMOS33        | IOB_X1Y111           | F6                   | *                    |
+|        | Pwm2B                | LVCMOS33        | IOB_X1Y103           | K1                   |                      |
+|        | UART_RXD_OUT         | LVCMOS33        | IOB_X1Y127           | D4                   |                      |
+|        | UART_TXD_IN          | LVCMOS33        | IOB_X1Y136           | C4                   |                      |
+|        | btin                 | LVCMOS33        | IOB_X1Y123           | F3                   |                      |
+|        | btout                | LVCMOS33        | IOB_X1Y119           | G2                   |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+

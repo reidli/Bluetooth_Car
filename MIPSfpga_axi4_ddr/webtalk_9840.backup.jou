@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Dec 20 10:48:36 2018
+# Process ID: 15592
+# Log file: d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/webtalk.log
+# Journal file: d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr\webtalk.jou
+#-----------------------------------------------------------
+source D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.hw/webtalk/labtool_webtalk.tcl -notrace

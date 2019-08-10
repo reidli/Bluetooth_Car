@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Dec 17 09:34:26 2018
+# Process ID: 2072
+# Log file: D:/system/system_ability_2018/system_ability_2018/ip_repo/car_by_li/edit_Motor_driver_v1_0.runs/impl_1/Motor_driver_v1_0.vdi
+# Journal file: D:/system/system_ability_2018/system_ability_2018/ip_repo/car_by_li/edit_Motor_driver_v1_0.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Motor_driver_v1_0.tcl -notrace

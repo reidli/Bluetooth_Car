@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="fifo_generator_0_synth_1" LaunchDir="D:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.runs/fifo_generator_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

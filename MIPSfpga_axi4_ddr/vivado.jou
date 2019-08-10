@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jan 09 21:29:28 2019
+# Process ID: 9928
+# Log file: C:/Users/84397/Desktop/系统能力培养/system_ability_20181227/MIPSfpga_axi4_ddr/vivado.log
+# Journal file: C:/Users/84397/Desktop/系统能力培养/system_ability_20181227/MIPSfpga_axi4_ddr\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/84397/Desktop/系统能力培养/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.xpr
+open_bd_design {C:/Users/84397/Desktop/系统能力培养/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd}
+set_property location {4493 742} [get_bd_intf_ports sencer]

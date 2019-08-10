@@ -1,0 +1,637 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Dec 12 10:01:20 2018
+# Process ID: 20608
+# Log file: D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper.vdi
+# Journal file: D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source MIPSfpga_system_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 891 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_gpio_0_0/MIPSfpga_system_axi_gpio_0_0_board.xdc] for cell 'MIPSfpga_system_i/axi_gpio_0/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_gpio_0_0/MIPSfpga_system_axi_gpio_0_0_board.xdc] for cell 'MIPSfpga_system_i/axi_gpio_0/U0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_gpio_0_0/MIPSfpga_system_axi_gpio_0_0.xdc] for cell 'MIPSfpga_system_i/axi_gpio_0/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_gpio_0_0/MIPSfpga_system_axi_gpio_0_0.xdc] for cell 'MIPSfpga_system_i/axi_gpio_0/U0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_clk_wiz_0_0/MIPSfpga_system_clk_wiz_0_0_board.xdc] for cell 'MIPSfpga_system_i/clk_wiz_0/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_clk_wiz_0_0/MIPSfpga_system_clk_wiz_0_0_board.xdc] for cell 'MIPSfpga_system_i/clk_wiz_0/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_clk_wiz_0_0/MIPSfpga_system_clk_wiz_0_0.xdc] for cell 'MIPSfpga_system_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_clk_wiz_0_0/MIPSfpga_system_clk_wiz_0_0.xdc:56]
+INFO: [Timing 38-2] Deriving generated clocks [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_clk_wiz_0_0/MIPSfpga_system_clk_wiz_0_0.xdc:56]
+get_clocks: Time (s): cpu = 00:00:36 ; elapsed = 00:00:34 . Memory (MB): peak = 1202.355 ; gain = 512.613
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_clk_wiz_0_0/MIPSfpga_system_clk_wiz_0_0.xdc] for cell 'MIPSfpga_system_i/clk_wiz_0/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_0_0/MIPSfpga_system_axi_uart16550_0_0_board.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_0/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_0_0/MIPSfpga_system_axi_uart16550_0_0_board.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_0/U0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_0_0/MIPSfpga_system_axi_uart16550_0_0.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_0/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_0_0/MIPSfpga_system_axi_uart16550_0_0.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_0/U0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_mig_7series_0_0/MIPSfpga_system_mig_7series_0_0/user_design/constraints/MIPSfpga_system_mig_7series_0_0.xdc] for cell 'MIPSfpga_system_i/mig_7series_0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_mig_7series_0_0/MIPSfpga_system_mig_7series_0_0/user_design/constraints/MIPSfpga_system_mig_7series_0_0.xdc] for cell 'MIPSfpga_system_i/mig_7series_0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_intc_0_0/MIPSfpga_system_axi_intc_0_0.xdc] for cell 'MIPSfpga_system_i/axi_intc_0/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_intc_0_0/MIPSfpga_system_axi_intc_0_0.xdc] for cell 'MIPSfpga_system_i/axi_intc_0/U0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_1_0/MIPSfpga_system_axi_uart16550_1_0_board.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_1/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_1_0/MIPSfpga_system_axi_uart16550_1_0_board.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_1/U0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_1_0/MIPSfpga_system_axi_uart16550_1_0.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_1/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_uart16550_1_0/MIPSfpga_system_axi_uart16550_1_0.xdc] for cell 'MIPSfpga_system_i/axi_uart16550_1/U0'
+Parsing XDC File [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc]
+Finished Parsing XDC File [D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/constrs_1/new/MIPSfpga_system.xdc]
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_intc_0_0/MIPSfpga_system_axi_intc_0_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_intc_0/U0'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_axi_intc_0_0/MIPSfpga_system_axi_intc_0_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_intc_0/U0'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_0/MIPSfpga_system_auto_ds_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m00_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_0/MIPSfpga_system_auto_ds_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m00_couplers/auto_ds/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_1/MIPSfpga_system_auto_ds_1_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m01_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_1/MIPSfpga_system_auto_ds_1_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m01_couplers/auto_ds/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_2/MIPSfpga_system_auto_ds_2_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m02_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_2/MIPSfpga_system_auto_ds_2_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m02_couplers/auto_ds/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_cc_0/MIPSfpga_system_auto_cc_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m03_couplers/auto_cc/inst'
+INFO: [Timing 38-2] Deriving generated clocks [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_cc_0/MIPSfpga_system_auto_cc_0_clocks.xdc:16]
+get_clocks: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1208.148 ; gain = 5.793
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_cc_0/MIPSfpga_system_auto_cc_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m03_couplers/auto_cc/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_3/MIPSfpga_system_auto_ds_3_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m04_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_3/MIPSfpga_system_auto_ds_3_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m04_couplers/auto_ds/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_4/MIPSfpga_system_auto_ds_4_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m05_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_4/MIPSfpga_system_auto_ds_4_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m05_couplers/auto_ds/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_5/MIPSfpga_system_auto_ds_5_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m06_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_5/MIPSfpga_system_auto_ds_5_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m06_couplers/auto_ds/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_6/MIPSfpga_system_auto_ds_6_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m07_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_ds_6/MIPSfpga_system_auto_ds_6_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/m07_couplers/auto_ds/inst'
+Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_us_0/MIPSfpga_system_auto_us_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [d:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_auto_us_0/MIPSfpga_system_auto_us_0_clocks.xdc] for cell 'MIPSfpga_system_i/axi_interconnect_0/s00_couplers/auto_us/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 303 instances were transformed.
+  IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 24 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 260 instances
+
+link_design: Time (s): cpu = 00:01:39 ; elapsed = 00:01:36 . Memory (MB): peak = 1208.148 ; gain = 990.160
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1208.148 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 3 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1f0b3366d
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1208.148 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 11 inverter(s) to 50 load pin(s).
+INFO: [Opt 31-10] Eliminated 1477 cells.
+Phase 2 Constant Propagation | Checksum: 1d1b5fb9f
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1208.148 ; gain = 0.000
+
+Phase 3 Sweep
+WARNING: [Opt 31-6] Deleting driverless net: MIPSfpga_system_i/mig_7series_0/u_MIPSfpga_system_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/USE_UPSIZER.upsizer_d2/USE_READ.read_data_inst/USE_FPGA_LAST_WORD.last_beat_curr_word_inst/last_beat_ii.
+WARNING: [Opt 31-6] Deleting driverless net: MIPSfpga_system_i/mig_7series_0/u_MIPSfpga_system_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/USE_UPSIZER.upsizer_d2/USE_READ.read_data_inst/USE_FPGA_WORD_COMPLETED.next_word_wrap_inst/next_word_wrap.
+WARNING: [Opt 31-6] Deleting driverless net: MIPSfpga_system_i/mig_7series_0/u_MIPSfpga_system_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/USE_UPSIZER.upsizer_d2/USE_WRITE.write_data_inst/USE_FPGA_WORD_COMPLETED.next_word_wrap_inst/next_word_wrap.
+INFO: [Opt 31-12] Eliminated 5185 unconnected nets.
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-11] Eliminated 4223 unconnected cells.
+Phase 3 Sweep | Checksum: 23c8ef557
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1208.148 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.272 . Memory (MB): peak = 1208.148 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 23c8ef557
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1208.148 ; gain = 0.000
+Implement Debug Cores | Checksum: 1b4296afe
+Logic Optimization | Checksum: 1b4296afe
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 3.13 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 35 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 70
+Ending PowerOpt Patch Enables Task | Checksum: 23c8ef557
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.099 . Memory (MB): peak = 1465.680 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 23c8ef557
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 1465.680 ; gain = 257.531
+INFO: [Common 17-83] Releasing license: Implementation
+28 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:01:41 ; elapsed = 00:01:42 . Memory (MB): peak = 1465.680 ; gain = 257.531
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.240 . Memory (MB): peak = 1465.680 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:37 ; elapsed = 00:00:23 . Memory (MB): peak = 1465.680 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper_drc_opted.rpt.
+report_drc: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 1465.680 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Runtime Estimator
+Phase 1 Placer Runtime Estimator | Checksum: 1ba2f0201
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1465.680 ; gain = 0.000
+
+Phase 2 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.246 . Memory (MB): peak = 1465.680 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.264 . Memory (MB): peak = 1465.680 ; gain = 0.000
+
+Phase 2.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 2.1.1 Pre-Place Cells
+Phase 2.1.1 Pre-Place Cells | Checksum: b78d9a0c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1465.680 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2.1.2 IO & Clk Clean Up
+WARNING: [Place 30-574] Poor placement for routing between an IO pin and BUFG. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	JB4_IBUF_inst (IBUF.O) is locked to IOB_X0Y120
+	MIPSfpga_system_i/util_ds_buf_0/U0/USE_BUFG.GEN_BUFG[0].BUFG_U (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y1
+Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
+Phase 2.1.2 IO & Clk Clean Up | Checksum: b78d9a0c
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:39 . Memory (MB): peak = 1465.680 ; gain = 0.000
+
+Phase 2.1.3 Implementation Feasibility check On IDelay
+Phase 2.1.3 Implementation Feasibility check On IDelay | Checksum: b78d9a0c
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:39 . Memory (MB): peak = 1465.680 ; gain = 0.000
+
+Phase 2.1.4 Commit IO Placement
+Phase 2.1.4 Commit IO Placement | Checksum: d1b5a2bd
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:39 . Memory (MB): peak = 1465.680 ; gain = 0.000
+Phase 2.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1b3cc7f3a
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:39 . Memory (MB): peak = 1465.680 ; gain = 0.000
+
+Phase 2.2 Build Placer Netlist Model
+
+Phase 2.2.1 Place Init Design
+
+Phase 2.2.1.1 Init Lut Pin Assignment
+Phase 2.2.1.1 Init Lut Pin Assignment | Checksum: 218087ae2
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 1465.680 ; gain = 0.000
+Phase 2.2.1 Place Init Design | Checksum: 1bc1db56b
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:01:11 . Memory (MB): peak = 1554.422 ; gain = 88.742
+Phase 2.2 Build Placer Netlist Model | Checksum: 1bc1db56b
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:01:11 . Memory (MB): peak = 1554.422 ; gain = 88.742
+
+Phase 2.3 Constrain Clocks/Macros
+
+Phase 2.3.1 Constrain Global/Regional Clocks
+Phase 2.3.1 Constrain Global/Regional Clocks | Checksum: 1bc1db56b
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:01:12 . Memory (MB): peak = 1554.422 ; gain = 88.742
+Phase 2.3 Constrain Clocks/Macros | Checksum: 1bc1db56b
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:01:12 . Memory (MB): peak = 1554.422 ; gain = 88.742
+Phase 2 Placer Initialization | Checksum: 1bc1db56b
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:01:12 . Memory (MB): peak = 1554.422 ; gain = 88.742
+
+Phase 3 Global Placement
+Phase 3 Global Placement | Checksum: 1f5c5a936
+
+Time (s): cpu = 00:03:06 ; elapsed = 00:02:25 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 4 Detail Placement
+
+Phase 4.1 Commit Multi Column Macros
+Phase 4.1 Commit Multi Column Macros | Checksum: 1f5c5a936
+
+Time (s): cpu = 00:03:07 ; elapsed = 00:02:25 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 4.2 Commit Most Macros & LUTRAMs
+Phase 4.2 Commit Most Macros & LUTRAMs | Checksum: 1b3e274a8
+
+Time (s): cpu = 00:03:46 ; elapsed = 00:02:50 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 4.3 Area Swap Optimization
+Phase 4.3 Area Swap Optimization | Checksum: 22f72b4e9
+
+Time (s): cpu = 00:03:47 ; elapsed = 00:02:51 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 4.4 updateClock Trees: DP
+Phase 4.4 updateClock Trees: DP | Checksum: 22f72b4e9
+
+Time (s): cpu = 00:03:47 ; elapsed = 00:02:51 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 4.5 Timing Path Optimizer
+Phase 4.5 Timing Path Optimizer | Checksum: 251752f50
+
+Time (s): cpu = 00:04:01 ; elapsed = 00:02:58 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 4.6 Small Shape Detail Placement
+
+Phase 4.6.1 Commit Small Macros & Core Logic
+
+Phase 4.6.1.1 setBudgets
+Phase 4.6.1.1 setBudgets | Checksum: 1db95400a
+
+Time (s): cpu = 00:04:01 ; elapsed = 00:02:59 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 4.6.1.2 Commit Slice Clusters
+Phase 4.6.1.2 Commit Slice Clusters | Checksum: 1455a041a
+
+Time (s): cpu = 00:04:35 ; elapsed = 00:03:28 . Memory (MB): peak = 1610.949 ; gain = 145.270
+Phase 4.6.1 Commit Small Macros & Core Logic | Checksum: 1455a041a
+
+Time (s): cpu = 00:04:35 ; elapsed = 00:03:28 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 4.6.2 Clock Restriction Legalization for Leaf Columns
+Phase 4.6.2 Clock Restriction Legalization for Leaf Columns | Checksum: 1455a041a
+
+Time (s): cpu = 00:04:36 ; elapsed = 00:03:29 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 4.6.3 Clock Restriction Legalization for Non-Clock Pins
+Phase 4.6.3 Clock Restriction Legalization for Non-Clock Pins | Checksum: 1455a041a
+
+Time (s): cpu = 00:04:36 ; elapsed = 00:03:30 . Memory (MB): peak = 1610.949 ; gain = 145.270
+Phase 4.6 Small Shape Detail Placement | Checksum: 1455a041a
+
+Time (s): cpu = 00:04:37 ; elapsed = 00:03:30 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 4.7 Re-assign LUT pins
+Phase 4.7 Re-assign LUT pins | Checksum: 1455a041a
+
+Time (s): cpu = 00:04:41 ; elapsed = 00:03:34 . Memory (MB): peak = 1610.949 ; gain = 145.270
+Phase 4 Detail Placement | Checksum: 1455a041a
+
+Time (s): cpu = 00:04:41 ; elapsed = 00:03:34 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 5 Post Placement Optimization and Clean-Up
+
+Phase 5.1 PCOPT Shape updates
+Phase 5.1 PCOPT Shape updates | Checksum: 846c440b
+
+Time (s): cpu = 00:04:42 ; elapsed = 00:03:35 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 5.2 Post Commit Optimization
+
+Phase 5.2.1 updateClock Trees: PCOPT
+Phase 5.2.1 updateClock Trees: PCOPT | Checksum: 846c440b
+
+Time (s): cpu = 00:04:43 ; elapsed = 00:03:36 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 5.2.2 Post Placement Optimization
+
+Phase 5.2.2.1 Post Placement Timing Optimization
+
+Phase 5.2.2.1.1 Restore Best Placement
+Phase 5.2.2.1.1 Restore Best Placement | Checksum: 110ac4d51
+
+Time (s): cpu = 00:05:12 ; elapsed = 00:03:53 . Memory (MB): peak = 1610.949 ; gain = 145.270
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.718. For the most accurate timing information please run report_timing.
+Phase 5.2.2.1 Post Placement Timing Optimization | Checksum: 110ac4d51
+
+Time (s): cpu = 00:05:12 ; elapsed = 00:03:53 . Memory (MB): peak = 1610.949 ; gain = 145.270
+Phase 5.2.2 Post Placement Optimization | Checksum: 110ac4d51
+
+Time (s): cpu = 00:05:12 ; elapsed = 00:03:53 . Memory (MB): peak = 1610.949 ; gain = 145.270
+Phase 5.2 Post Commit Optimization | Checksum: 110ac4d51
+
+Time (s): cpu = 00:05:12 ; elapsed = 00:03:54 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 5.3 Sweep Clock Roots: Post-Placement
+Phase 5.3 Sweep Clock Roots: Post-Placement | Checksum: 110ac4d51
+
+Time (s): cpu = 00:05:12 ; elapsed = 00:03:54 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 5.4 Post Placement Cleanup
+Phase 5.4 Post Placement Cleanup | Checksum: 110ac4d51
+
+Time (s): cpu = 00:05:13 ; elapsed = 00:03:54 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 5.5 Placer Reporting
+
+Phase 5.5.1 Restore STA
+Phase 5.5.1 Restore STA | Checksum: 110ac4d51
+
+Time (s): cpu = 00:05:13 ; elapsed = 00:03:54 . Memory (MB): peak = 1610.949 ; gain = 145.270
+Phase 5.5 Placer Reporting | Checksum: 110ac4d51
+
+Time (s): cpu = 00:05:13 ; elapsed = 00:03:55 . Memory (MB): peak = 1610.949 ; gain = 145.270
+
+Phase 5.6 Final Placement Cleanup
+Phase 5.6 Final Placement Cleanup | Checksum: 15b7231f4
+
+Time (s): cpu = 00:05:13 ; elapsed = 00:03:55 . Memory (MB): peak = 1610.949 ; gain = 145.270
+Phase 5 Post Placement Optimization and Clean-Up | Checksum: 15b7231f4
+
+Time (s): cpu = 00:05:14 ; elapsed = 00:03:55 . Memory (MB): peak = 1610.949 ; gain = 145.270
+Ending Placer Task | Checksum: 1108ffb8d
+
+Time (s): cpu = 00:05:14 ; elapsed = 00:03:55 . Memory (MB): peak = 1610.949 ; gain = 145.270
+INFO: [Common 17-83] Releasing license: Implementation
+41 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:27 ; elapsed = 00:04:04 . Memory (MB): peak = 1610.949 ; gain = 145.270
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:29 ; elapsed = 00:00:10 . Memory (MB): peak = 1610.949 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:48 ; elapsed = 00:00:25 . Memory (MB): peak = 1610.949 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.129 . Memory (MB): peak = 1610.949 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1610.949 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.274 . Memory (MB): peak = 1610.949 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC 23-20] Rule violation (PLCK-12) Clock Placer Checks - Poor placement for routing between an IO pin and BUFG. 
+Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
+This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	JB4_IBUF_inst (IBUF.O) is locked to H14
+	MIPSfpga_system_i/util_ds_buf_0/U0/USE_BUFG.GEN_BUFG[0].BUFG_U (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y1
+
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 5a36ffc3
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:21 . Memory (MB): peak = 1610.949 ; gain = 0.000
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 5a36ffc3
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:23 . Memory (MB): peak = 1610.949 ; gain = 0.000
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 5a36ffc3
+
+Time (s): cpu = 00:01:49 ; elapsed = 00:01:23 . Memory (MB): peak = 1610.949 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 18fdef3f0
+
+Time (s): cpu = 00:02:52 ; elapsed = 00:02:00 . Memory (MB): peak = 1610.949 ; gain = 0.000
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.814  | TNS=0.000  | WHS=-0.978 | THS=-2240.614|
+
+Phase 2 Router Initialization | Checksum: 1efa7ce86
+
+Time (s): cpu = 00:03:25 ; elapsed = 00:02:19 . Memory (MB): peak = 1610.949 ; gain = 0.000
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 23efe7c58
+
+Time (s): cpu = 00:03:54 ; elapsed = 00:02:35 . Memory (MB): peak = 1610.949 ; gain = 0.000
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 7085
+ Number of Nodes with overlaps = 1066
+ Number of Nodes with overlaps = 286
+ Number of Nodes with overlaps = 73
+ Number of Nodes with overlaps = 35
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 112c38923
+
+Time (s): cpu = 00:05:43 ; elapsed = 00:03:39 . Memory (MB): peak = 1610.949 ; gain = 0.000
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-0.933 | TNS=-7.261 | WHS=N/A    | THS=N/A    |
+
+
+Phase 4.1.2 GlobIterForTiming
+
+Phase 4.1.2.1 Update Timing
+Phase 4.1.2.1 Update Timing | Checksum: 276329f24
+
+Time (s): cpu = 00:05:47 ; elapsed = 00:03:42 . Memory (MB): peak = 1610.949 ; gain = 0.000
+
+Phase 4.1.2.2 Fast Budgeting
+Phase 4.1.2.2 Fast Budgeting | Checksum: 21454ad26
+
+Time (s): cpu = 00:05:51 ; elapsed = 00:03:45 . Memory (MB): peak = 1614.012 ; gain = 3.063
+Phase 4.1.2 GlobIterForTiming | Checksum: 1fabc64a7
+
+Time (s): cpu = 00:05:53 ; elapsed = 00:03:47 . Memory (MB): peak = 1614.012 ; gain = 3.063
+Phase 4.1 Global Iteration 0 | Checksum: 1fabc64a7
+
+Time (s): cpu = 00:05:53 ; elapsed = 00:03:47 . Memory (MB): peak = 1614.012 ; gain = 3.063
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 1454000e5
+
+Time (s): cpu = 00:05:56 ; elapsed = 00:03:50 . Memory (MB): peak = 1614.012 ; gain = 3.063
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-0.912 | TNS=-7.738 | WHS=N/A    | THS=N/A    |
+
+
+Phase 4.2.2 GlobIterForTiming
+
+Phase 4.2.2.1 Update Timing
+Phase 4.2.2.1 Update Timing | Checksum: 1a4ff9ce4
+
+Time (s): cpu = 00:05:59 ; elapsed = 00:03:52 . Memory (MB): peak = 1614.012 ; gain = 3.063
+
+Phase 4.2.2.2 Fast Budgeting
+Phase 4.2.2.2 Fast Budgeting | Checksum: 105d9b83f
+
+Time (s): cpu = 00:06:02 ; elapsed = 00:03:55 . Memory (MB): peak = 1615.379 ; gain = 4.430
+Phase 4.2.2 GlobIterForTiming | Checksum: 282afd2dc
+
+Time (s): cpu = 00:06:04 ; elapsed = 00:03:57 . Memory (MB): peak = 1615.379 ; gain = 4.430
+Phase 4.2 Global Iteration 1 | Checksum: 282afd2dc
+
+Time (s): cpu = 00:06:04 ; elapsed = 00:03:57 . Memory (MB): peak = 1615.379 ; gain = 4.430
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 0
+
+Phase 4.3.1 Update Timing
+Phase 4.3.1 Update Timing | Checksum: 131c37dd3
+
+Time (s): cpu = 00:06:06 ; elapsed = 00:03:59 . Memory (MB): peak = 1615.379 ; gain = 4.430
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-0.822 | TNS=-6.998 | WHS=N/A    | THS=N/A    |
+
+
+Phase 4.3.2 GlobIterForTiming
+
+Phase 4.3.2.1 Update Timing
+Phase 4.3.2.1 Update Timing | Checksum: 1260833c0
+
+Time (s): cpu = 00:06:09 ; elapsed = 00:04:01 . Memory (MB): peak = 1615.379 ; gain = 4.430
+
+Phase 4.3.2.2 Fast Budgeting
+Phase 4.3.2.2 Fast Budgeting | Checksum: 17c1d87d1
+
+Time (s): cpu = 00:06:12 ; elapsed = 00:04:05 . Memory (MB): peak = 1615.438 ; gain = 4.488
+Phase 4.3.2 GlobIterForTiming | Checksum: 1b9c12bf8
+
+Time (s): cpu = 00:06:14 ; elapsed = 00:04:06 . Memory (MB): peak = 1615.438 ; gain = 4.488
+Phase 4.3 Global Iteration 2 | Checksum: 1b9c12bf8
+
+Time (s): cpu = 00:06:15 ; elapsed = 00:04:07 . Memory (MB): peak = 1615.438 ; gain = 4.488
+Phase 4 Rip-up And Reroute | Checksum: 1b9c12bf8
+
+Time (s): cpu = 00:06:15 ; elapsed = 00:04:07 . Memory (MB): peak = 1615.438 ; gain = 4.488
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 14934d285
+
+Time (s): cpu = 00:06:29 ; elapsed = 00:04:14 . Memory (MB): peak = 1615.438 ; gain = 4.488
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-0.822 | TNS=-6.998 | WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 14934d285
+
+Time (s): cpu = 00:06:31 ; elapsed = 00:04:16 . Memory (MB): peak = 1615.438 ; gain = 4.488
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 14934d285
+
+Time (s): cpu = 00:06:31 ; elapsed = 00:04:16 . Memory (MB): peak = 1615.438 ; gain = 4.488
+Phase 5 Delay and Skew Optimization | Checksum: 14934d285
+
+Time (s): cpu = 00:06:31 ; elapsed = 00:04:16 . Memory (MB): peak = 1615.438 ; gain = 4.488
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Update Timing
+Phase 6.1 Update Timing | Checksum: 11935d4c1
+
+Time (s): cpu = 00:06:56 ; elapsed = 00:04:30 . Memory (MB): peak = 1615.438 ; gain = 4.488
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-0.822 | TNS=-6.998 | WHS=0.004  | THS=0.000  |
+
+Phase 6 Post Hold Fix | Checksum: 176b3ff13
+
+Time (s): cpu = 00:06:57 ; elapsed = 00:04:30 . Memory (MB): peak = 1615.438 ; gain = 4.488
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 7.69195 %
+  Global Horizontal Routing Utilization  = 10.0092 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 64.8649%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 66.6667%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 95.5882%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X24Y21 -> INT_L_X24Y21
+   INT_R_X21Y19 -> INT_R_X21Y19
+West Dir 1x1 Area, Max Cong = 88.2353%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X24Y28 -> INT_L_X24Y28
+   INT_R_X25Y19 -> INT_R_X25Y19
+   INT_R_X27Y13 -> INT_R_X27Y13
+Phase 7 Route finalize | Checksum: 156010259
+
+Time (s): cpu = 00:06:57 ; elapsed = 00:04:30 . Memory (MB): peak = 1615.438 ; gain = 4.488
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 156010259
+
+Time (s): cpu = 00:06:58 ; elapsed = 00:04:31 . Memory (MB): peak = 1615.438 ; gain = 4.488
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 165d23cfe
+
+Time (s): cpu = 00:07:04 ; elapsed = 00:04:38 . Memory (MB): peak = 1615.438 ; gain = 4.488
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-0.822 | TNS=-6.998 | WHS=0.004  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 165d23cfe
+
+Time (s): cpu = 00:07:05 ; elapsed = 00:04:38 . Memory (MB): peak = 1615.438 ; gain = 4.488
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:07:05 ; elapsed = 00:04:38 . Memory (MB): peak = 1615.438 ; gain = 4.488
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+55 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:07:17 ; elapsed = 00:04:45 . Memory (MB): peak = 1615.438 ; gain = 4.488
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:39 ; elapsed = 00:00:14 . Memory (MB): peak = 1615.438 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:53 ; elapsed = 00:00:26 . Memory (MB): peak = 1615.438 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper_drc_routed.rpt.
+report_drc: Time (s): cpu = 00:00:29 ; elapsed = 00:00:20 . Memory (MB): peak = 1615.438 ; gain = 0.000
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_timing_summary: Time (s): cpu = 00:01:28 ; elapsed = 00:00:51 . Memory (MB): peak = 1693.449 ; gain = 78.012
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+report_power: Time (s): cpu = 00:00:27 ; elapsed = 00:00:21 . Memory (MB): peak = 1710.277 ; gain = 16.828
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 12 10:16:42 2018...

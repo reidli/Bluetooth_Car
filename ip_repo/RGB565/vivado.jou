@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Dec 27 08:28:51 2018
+# Process ID: 4276
+# Log file: D:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/vivado.log
+# Journal file: D:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.xpr
+create_ip -name fifo_generator -vendor xilinx.com -library ip -version 12.0 -module_name fifo_generator_0
+set_property -dict [list CONFIG.Input_Data_Width {16} CONFIG.Almost_Full_Flag {false} CONFIG.Almost_Empty_Flag {false} CONFIG.Valid_Flag {false} CONFIG.Write_Acknowledge_Flag {false} CONFIG.Output_Data_Width {16}] [get_ips fifo_generator_0]
+generate_target {instantiation_template} [get_files d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+update_compile_order -fileset sources_1
+generate_target all [get_files  d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+launch_run -jobs 4 fifo_generator_0_synth_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+remove_files -fileset fifo_generator_0 d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci
+delete_fileset fifo_generator_0
+file delete -force d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0
+create_ip -name fifo_generator -vendor xilinx.com -library ip -version 12.0 -module_name fifo_generator_0
+set_property -dict [list CONFIG.Fifo_Implementation {Independent_Clocks_Block_RAM} CONFIG.Input_Data_Width {16} CONFIG.Output_Data_Width {16} CONFIG.Full_Threshold_Assert_Value {1021} CONFIG.Full_Threshold_Negate_Value {1020}] [get_ips fifo_generator_0]
+generate_target {instantiation_template} [get_files d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+update_compile_order -fileset sources_1
+generate_target all [get_files  d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565/edit_RGB565_v1_0.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+launch_run -jobs 4 fifo_generator_0_synth_1

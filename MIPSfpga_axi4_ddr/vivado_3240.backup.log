@@ -1,0 +1,994 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Dec 27 10:51:18 2018
+# Process ID: 11244
+# Log file: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/vivado.log
+# Journal file: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.xpr
+INFO: [Project 1-313] Project file moved from 'D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/84397/Desktop/ram_init_os.coe', nor could it be found using path 'D:/system/ram_init_os.coe'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/84397/Desktop/material/system_ability_20181227/ip_repo/RGB565_1.0', nor could it be found using path 'D:/system/system_ability_2018/system_ability_2018/ip_repo/RGB565_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/84397/Desktop/material/system_ability_20181227/ip_repo/RGB565_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/84397/Desktop/material/system_ability_20181227/ip_repo/car_by_li'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/84397/Desktop/material/system_ability_20181227/ip_repo/PWM_w_Int_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/84397/Desktop/material/system_ability_20181227/ip_repo/my_mips_packaged'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:24 . Memory (MB): peak = 1038.074 ; gain = 444.930
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+Adding component instance block -- imgtec.org:user:MIPS_MicroAptiv_UP:1.3.1 - MIPS_MicroAptiv_UP_0
+Adding component instance block -- xilinx.com:ip:ahblite_axi_bridge:3.0 - ahblite_axi_bridge_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MIPSfpga_system_ahblite_axi_bridge_0_0 
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.2 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - axi_intc_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_4
+Adding component instance block -- xilinx.com:ip:axi_uart16550:2.0 - axi_uart16550_1
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_uart16550:2.0 - axi_uart16550_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:5.1 - clk_wiz_0
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+Adding component instance block -- xilinx.com:ip:mig_7series:2.3 - mig_7series_0
+Adding component instance block -- xilinx.com:user:PWM_w_Int:1.0 - PWM_w_Int_0
+Adding component instance block -- xilinx.com:user:Motor_driver:1.0 - Motor_driver_0
+Adding component instance block -- xilinx.com:ip:axi_iic:2.0 - axi_iic_0
+Adding component instance block -- xilinx.com:ip:ila:5.1 - ila_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Successfully read diagram <MIPSfpga_system> from BD file <C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd>
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+Wrote  : <C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd> 
+delete_bd_objs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1089.953 ; gain = 0.000
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 7 not recognized - using default interupt type Rising Edge. Please change this manually if necessary.
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 6 not recognized - using default interupt type Rising Edge. Please change this manually if necessary.
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 4 not recognized - using default interupt type Rising Edge. Please change this manually if necessary.
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 1 not recognized - using default interupt type Rising Edge. Please change this manually if necessary.
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 0 not recognized - using default interupt type Rising Edge. Please change this manually if necessary.
+CRITICAL WARNING: [BD 41-237] Bus Interface property MASTER_TYPE does not match between /blk_mem_gen_0/BRAM_PORTA(OTHER) and /axi_bram_ctrl_0/BRAM_PORTA(BRAM_CTRL)
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/wea'(1) to net 'axi_bram_ctrl_0_BRAM_PORTA_WE'(4) - Only lower order bits will be connected.
+Verilog Output written to : C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.v
+Verilog Output written to : C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system_wrapper.v
+Wrote  : <C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd> 
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_MIPS_MicroAptiv_UP_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MIPS_MicroAptiv_UP_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xbar_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_blk_mem_gen_0_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'MIPSfpga_system_blk_mem_gen_0_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+ERROR: [xilinx.com:ip:blk_mem_gen:8.2-0] MIPSfpga_system_blk_mem_gen_0_0: COE file 'c:/Users/84397/Desktop/ram_init_os.coe' not found.
+CRITICAL WARNING: [IP_Flow 19-1747] Failed to deliver file 'd:/Xilinx/Vivado/2015.2/data/ip/xilinx/blk_mem_gen_v8_2/hdl/mem_init_file.xit': 
+ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s).
+ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'MIPSfpga_system_blk_mem_gen_0_0'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [IP_Flow 19-98] Generation of the IP CORE failed.
+Failed to generate IP 'MIPSfpga_system_blk_mem_gen_0_0'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [BD 41-1030] Generation failed for the IP Integrator block blk_mem_gen_0 
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_bram_ctrl_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_ds_buf_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_2_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_uart16550_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_3_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_mig_7series_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'MIPSfpga_system_mig_7series_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_2_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_2 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconcat_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_intc_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_intc_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconcat_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_1_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_4 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_uart16550_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_PWM_w_Int_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PWM_w_Int_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_Motor_driver_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Motor_driver_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_iic_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_iic_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_ila_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_ahblite_axi_bridge_0_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'MIPSfpga_system_ahblite_axi_bridge_0_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ahblite_axi_bridge_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m01_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_2'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m02_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m02_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_cc_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m03_couplers/auto_cc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_3'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m04_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_2'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m04_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_4'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m05_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_3'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m05_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_5'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m06_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_4'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m06_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_6'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m07_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_5'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m07_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_7'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m08_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_6'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m08_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_us_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_us .
+INFO: [BD 41-1379] This design does not contain any processor.
+Exporting to file C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system.hwh
+Generated Block Design Tcl file C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system_bd.tcl
+Generated Hardware Definition File C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.hwdef
+Adding component instance block -- imgtec.org:user:MIPS_MicroAptiv_UP:1.3.1 - MIPS_MicroAptiv_UP_0
+Adding component instance block -- xilinx.com:ip:ahblite_axi_bridge:3.0 - ahblite_axi_bridge_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.2 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - axi_intc_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_4
+Adding component instance block -- xilinx.com:ip:axi_uart16550:2.0 - axi_uart16550_1
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_uart16550:2.0 - axi_uart16550_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:5.1 - clk_wiz_0
+Adding component instance block -- xilinx.com:ip:mig_7series:2.3 - mig_7series_0
+Adding component instance block -- xilinx.com:user:PWM_w_Int:1.0 - PWM_w_Int_0
+Adding component instance block -- xilinx.com:user:Motor_driver:1.0 - Motor_driver_0
+Adding component instance block -- xilinx.com:ip:axi_iic:2.0 - axi_iic_0
+Adding component instance block -- xilinx.com:ip:ila:5.1 - ila_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Successfully read diagram <MIPSfpga_system> from BD file <C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd>
+INFO: [BD 41-1662] The design 'MIPSfpga_system.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/wea'(1) to net 'axi_bram_ctrl_0_BRAM_PORTA_WE'(4) - Only lower order bits will be connected.
+Verilog Output written to : C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.v
+Verilog Output written to : C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system_wrapper.v
+Wrote  : <C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd> 
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_MIPS_MicroAptiv_UP_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MIPS_MicroAptiv_UP_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xbar_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_blk_mem_gen_0_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'MIPSfpga_system_blk_mem_gen_0_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+ERROR: [xilinx.com:ip:blk_mem_gen:8.2-0] MIPSfpga_system_blk_mem_gen_0_0: COE file 'c:/Users/84397/Desktop/ram_init_os.coe' not found.
+CRITICAL WARNING: [IP_Flow 19-1747] Failed to deliver file 'd:/Xilinx/Vivado/2015.2/data/ip/xilinx/blk_mem_gen_v8_2/hdl/mem_init_file.xit': 
+ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s).
+ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'MIPSfpga_system_blk_mem_gen_0_0'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [IP_Flow 19-98] Generation of the IP CORE failed.
+Failed to generate IP 'MIPSfpga_system_blk_mem_gen_0_0'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [BD 41-1030] Generation failed for the IP Integrator block blk_mem_gen_0 
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_bram_ctrl_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_ds_buf_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_2_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_uart16550_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_3_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_2_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_2 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconcat_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_intc_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_intc_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconcat_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_1_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_4 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_uart16550_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_PWM_w_Int_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PWM_w_Int_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_Motor_driver_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Motor_driver_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_iic_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_iic_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_iic_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_ila_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_ahblite_axi_bridge_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ahblite_axi_bridge_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m01_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_2'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m02_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m02_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_cc_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m03_couplers/auto_cc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_3'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m04_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_2'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m04_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_4'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m05_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_3'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m05_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_5'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m06_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_4'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m06_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_6'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m07_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_5'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m07_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_7'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m08_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_6'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m08_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_us_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_us .
+INFO: [BD 41-1379] This design does not contain any processor.
+Exporting to file C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system.hwh
+Generated Block Design Tcl file C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system_bd.tcl
+Generated Hardware Definition File C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.hwdef
+[Thu Dec 27 10:54:48 2018] Launched synth_1...
+Run output will be captured here: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/synth_1/runme.log
+[Thu Dec 27 10:54:48 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:58 ; elapsed = 00:02:46 . Memory (MB): peak = 1205.266 ; gain = 167.191
+ERROR: [Common 17-39] 'launch_runs' failed due to earlier errors.
+open_bd_design {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd}
+Adding component instance block -- imgtec.org:user:MIPS_MicroAptiv_UP:1.3.1 - MIPS_MicroAptiv_UP_0
+Adding component instance block -- xilinx.com:ip:ahblite_axi_bridge:3.0 - ahblite_axi_bridge_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.2 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - axi_intc_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_4
+Adding component instance block -- xilinx.com:ip:axi_uart16550:2.0 - axi_uart16550_1
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_uart16550:2.0 - axi_uart16550_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:5.1 - clk_wiz_0
+Adding component instance block -- xilinx.com:ip:mig_7series:2.3 - mig_7series_0
+Adding component instance block -- xilinx.com:user:PWM_w_Int:1.0 - PWM_w_Int_0
+Adding component instance block -- xilinx.com:user:Motor_driver:1.0 - Motor_driver_0
+Adding component instance block -- xilinx.com:ip:axi_iic:2.0 - axi_iic_0
+Adding component instance block -- xilinx.com:ip:ila:5.1 - ila_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Successfully read diagram <MIPSfpga_system> from BD file <C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd>
+open_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1214.289 ; gain = 4.051
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+startgroup
+set_property -dict [list CONFIG.Coe_File {C:/Users/84397/Desktop/material/ram_init_os.coe}] [get_bd_cells blk_mem_gen_0]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/84397/Desktop/material/ram_init_os.coe' provided. It will be converted relative to IP Instance files '..\..\..\..\..\..\..\..\ram_init_os.coe'
+endgroup
+save_bd_design
+Wrote  : <C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+delete_bd_objs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1285.855 ; gain = 0.000
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 7 not recognized - using default interupt type Rising Edge. Please change this manually if necessary.
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 6 not recognized - using default interupt type Rising Edge. Please change this manually if necessary.
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 4 not recognized - using default interupt type Rising Edge. Please change this manually if necessary.
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 1 not recognized - using default interupt type Rising Edge. Please change this manually if necessary.
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 0 not recognized - using default interupt type Rising Edge. Please change this manually if necessary.
+CRITICAL WARNING: [BD 41-237] Bus Interface property MASTER_TYPE does not match between /blk_mem_gen_0/BRAM_PORTA(OTHER) and /axi_bram_ctrl_0/BRAM_PORTA(BRAM_CTRL)
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/wea'(1) to net 'axi_bram_ctrl_0_BRAM_PORTA_WE'(4) - Only lower order bits will be connected.
+Verilog Output written to : C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.v
+Verilog Output written to : C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system_wrapper.v
+Wrote  : <C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd> 
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_MIPS_MicroAptiv_UP_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MIPS_MicroAptiv_UP_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xbar_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_blk_mem_gen_0_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'MIPSfpga_system_blk_mem_gen_0_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_bram_ctrl_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_ds_buf_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_2_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_uart16550_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_3_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_mig_7series_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'MIPSfpga_system_mig_7series_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_2_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_2 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconcat_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_intc_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_intc_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconcat_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_1_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_4 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_uart16550_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_PWM_w_Int_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PWM_w_Int_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_Motor_driver_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Motor_driver_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_iic_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_iic_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_ila_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_ahblite_axi_bridge_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ahblite_axi_bridge_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m01_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_2'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m02_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m02_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_cc_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m03_couplers/auto_cc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_3'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m04_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_2'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m04_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_4'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m05_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_3'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m05_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_5'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m06_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_4'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m06_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_6'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m07_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_5'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m07_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_7'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m08_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_6'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m08_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_us_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_us .
+INFO: [BD 41-1379] This design does not contain any processor.
+Exporting to file C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system.hwh
+Generated Block Design Tcl file C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system_bd.tcl
+Generated Hardware Definition File C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.hwdef
+INFO: [BD 41-1662] The design 'MIPSfpga_system.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/wea'(1) to net 'axi_bram_ctrl_0_BRAM_PORTA_WE'(4) - Only lower order bits will be connected.
+Verilog Output written to : C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.v
+Verilog Output written to : C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system_wrapper.v
+Wrote  : <C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd> 
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_MIPS_MicroAptiv_UP_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MIPS_MicroAptiv_UP_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xbar_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_blk_mem_gen_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_bram_ctrl_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_ds_buf_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_2_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_uart16550_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_3_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_2_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_2 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconcat_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_intc_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_intc_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconcat_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_1_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_4 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_uart16550_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_PWM_w_Int_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PWM_w_Int_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_Motor_driver_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Motor_driver_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_iic_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_iic_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_iic_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_ila_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_ahblite_axi_bridge_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ahblite_axi_bridge_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m01_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_2'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m02_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m02_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_cc_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m03_couplers/auto_cc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_3'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m04_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_2'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m04_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_4'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m05_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_3'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m05_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_5'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m06_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_4'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m06_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_6'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m07_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_5'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m07_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_7'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m08_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_6'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m08_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_us_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_us .
+INFO: [BD 41-1379] This design does not contain any processor.
+Exporting to file C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system.hwh
+Generated Block Design Tcl file C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system_bd.tcl
+Generated Hardware Definition File C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.hwdef
+[Thu Dec 27 11:08:33 2018] Launched synth_1...
+Run output will be captured here: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/synth_1/runme.log
+[Thu Dec 27 11:08:33 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:35 ; elapsed = 00:02:05 . Memory (MB): peak = 1320.984 ; gain = 35.129
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+startgroup
+set_property -dict [list CONFIG.Coe_File {C:/Users/84397/Desktop/material/ram_init_os.coe}] [get_bd_cells blk_mem_gen_0]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/84397/Desktop/material/ram_init_os.coe' provided. It will be converted relative to IP Instance files '..\..\..\..\..\..\..\..\ram_init_os.coe'
+endgroup
+save_bd_design
+Wrote  : <C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+delete_bd_objs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1320.984 ; gain = 0.000
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 7 not recognized - using default interupt type Rising Edge. Please change this manually if necessary.
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 6 not recognized - using default interupt type Rising Edge. Please change this manually if necessary.
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 4 not recognized - using default interupt type Rising Edge. Please change this manually if necessary.
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 1 not recognized - using default interupt type Rising Edge. Please change this manually if necessary.
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 0 not recognized - using default interupt type Rising Edge. Please change this manually if necessary.
+CRITICAL WARNING: [BD 41-237] Bus Interface property MASTER_TYPE does not match between /blk_mem_gen_0/BRAM_PORTA(OTHER) and /axi_bram_ctrl_0/BRAM_PORTA(BRAM_CTRL)
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/wea'(1) to net 'axi_bram_ctrl_0_BRAM_PORTA_WE'(4) - Only lower order bits will be connected.
+Verilog Output written to : C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.v
+Verilog Output written to : C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system_wrapper.v
+Wrote  : <C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd> 
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_MIPS_MicroAptiv_UP_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MIPS_MicroAptiv_UP_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xbar_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_blk_mem_gen_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_bram_ctrl_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_ds_buf_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_2_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_uart16550_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_3_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_mig_7series_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'MIPSfpga_system_mig_7series_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_2_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_2 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconcat_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_intc_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_intc_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconcat_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_1_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_4 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_uart16550_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_PWM_w_Int_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PWM_w_Int_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_Motor_driver_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Motor_driver_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_iic_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_iic_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_ila_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_ahblite_axi_bridge_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ahblite_axi_bridge_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m01_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_2'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m02_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m02_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_cc_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m03_couplers/auto_cc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_3'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m04_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_2'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m04_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_4'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m05_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_3'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m05_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_5'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m06_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_4'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m06_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_6'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m07_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_5'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m07_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_7'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m08_couplers/auto_ds .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_6'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m08_couplers/auto_pc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_us_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_us .
+INFO: [BD 41-1379] This design does not contain any processor.
+Exporting to file C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system.hwh
+Generated Block Design Tcl file C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system_bd.tcl
+Generated Hardware Definition File C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.hwdef
+INFO: [BD 41-1662] The design 'MIPSfpga_system.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/wea'(1) to net 'axi_bram_ctrl_0_BRAM_PORTA_WE'(4) - Only lower order bits will be connected.
+Verilog Output written to : C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.v
+Verilog Output written to : C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system_wrapper.v
+Wrote  : <C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd> 
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_MIPS_MicroAptiv_UP_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MIPS_MicroAptiv_UP_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xbar_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_blk_mem_gen_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_bram_ctrl_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_ds_buf_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_2_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_uart16550_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_3_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_2_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_2 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconcat_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_intc_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_intc_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconcat_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_1_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_4 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_uart16550_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_PWM_w_Int_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PWM_w_Int_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_Motor_driver_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Motor_driver_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_axi_iic_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_iic_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'MIPSfpga_system_axi_iic_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_ila_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_ahblite_axi_bridge_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ahblite_axi_bridge_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m01_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_2'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m02_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m02_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_cc_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m03_couplers/auto_cc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_3'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m04_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_2'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m04_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_4'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m05_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_3'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m05_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_5'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m06_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_4'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m06_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_6'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m07_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_5'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m07_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_7'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m08_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_6'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m08_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'MIPSfpga_system_auto_us_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_us .
+INFO: [BD 41-1379] This design does not contain any processor.
+Exporting to file C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system.hwh
+Generated Block Design Tcl file C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system_bd.tcl
+Generated Hardware Definition File C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.hwdef
+[Thu Dec 27 11:11:43 2018] Launched synth_1...
+Run output will be captured here: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/synth_1/runme.log
+[Thu Dec 27 11:11:43 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:31 ; elapsed = 00:01:56 . Memory (MB): peak = 1352.129 ; gain = 31.145
+remove_files C:/Users/84397/Desktop/ram_init_os.coe
+open_bd_design {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Dec 27 11:12:19 2018] Launched synth_1...
+Run output will be captured here: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/synth_1/runme.log
+[Thu Dec 27 11:12:19 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 27 11:47:25 2018...

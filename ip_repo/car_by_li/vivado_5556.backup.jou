@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Dec 17 08:09:43 2018
+# Process ID: 6556
+# Log file: D:/system/system_ability_2018/system_ability_2018/ip_repo/car_by_li/vivado.log
+# Journal file: D:/system/system_ability_2018/system_ability_2018/ip_repo/car_by_li\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/system/system_ability_2018/system_ability_2018/ip_repo/car_by_li/edit_Motor_driver_v1_0.xpr
+ipx::open_ipxact_file D:/system/system_ability_2018/system_ability_2018/ip_repo/car_by_li/motor_driver_1.0/component.xml
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+set_property core_revision 7 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/system/system_ability_2018/system_ability_2018/ip_repo/car_by_li/motor_driver_1.0
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {D:\system\system_ability_2018\system_ability_2018\ip_repo\car_by_li\xilinx.com_user_Motor_driver_1.0.zip} [ipx::current_core]
+set_property core_revision 8 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/system/system_ability_2018/system_ability_2018/ip_repo/car_by_li/motor_driver_1.0
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {D:\system\system_ability_2018\system_ability_2018\ip_repo\car_by_li\xilinx.com_user_Motor_driver_1.0.zip} [ipx::current_core]
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property core_revision 9 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/system/system_ability_2018/system_ability_2018/ip_repo/car_by_li/motor_driver_1.0
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {D:\system\system_ability_2018\system_ability_2018\ip_repo\car_by_li\xilinx.com_user_Motor_driver_1.0.zip} [ipx::current_core]
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1

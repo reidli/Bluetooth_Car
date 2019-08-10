@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Dec 28 08:19:03 2018
+# Process ID: 3240
+# Log file: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/vivado.log
+# Journal file: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.xpr
+open_hw
+connect_hw_server
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+set_property PROGRAM.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper.bit} [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1]
+run_hw_ila hw_ila_1
+wait_on_hw_ila hw_ila_1
+display_hw_ila_data [upload_hw_ila_data hw_ila_1]
+run_hw_ila hw_ila_1 -trigger_now
+wait_on_hw_ila hw_ila_1
+display_hw_ila_data [upload_hw_ila_data hw_ila_1]
+close_hw
+open_hw
+connect_hw_server
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+set_property PROGRAM.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper.bit} [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1]
+set_property PROBES.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]

@@ -1,0 +1,334 @@
+
+*** Running vivado
+    with args -log PWM_car_v1_0.vds -m64 -mode batch -messageDb vivado.pb -notrace -source PWM_car_v1_0.tcl
+
+WARNING: Default location for XILINX_VIVADO_HLS not found: 
+
+****** Vivado v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source PWM_car_v1_0.tcl -notrace
+Command: synth_design -top PWM_car_v1_0 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+WARNING: [Synth 8-2611] redeclaration of ansi port slv_reg0 is not allowed [d:/system/system_ability_2018/system_ability_2018/ip_repo/pwm_car/pwm_car_1.0/hdl/PWM_car_v1_0_S00_AXI.v:106]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 275.430 ; gain = 102.027
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'PWM_car_v1_0' [d:/system/system_ability_2018/system_ability_2018/ip_repo/pwm_car/pwm_car_1.0/hdl/PWM_car_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'PWM_car_v1_0_S00_AXI' [d:/system/system_ability_2018/system_ability_2018/ip_repo/pwm_car/pwm_car_1.0/hdl/PWM_car_v1_0_S00_AXI.v:3]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [d:/system/system_ability_2018/system_ability_2018/ip_repo/pwm_car/pwm_car_1.0/hdl/PWM_car_v1_0_S00_AXI.v:222]
+INFO: [Synth 8-226] default block is never used [d:/system/system_ability_2018/system_ability_2018/ip_repo/pwm_car/pwm_car_1.0/hdl/PWM_car_v1_0_S00_AXI.v:363]
+INFO: [Synth 8-256] done synthesizing module 'PWM_car_v1_0_S00_AXI' (1#1) [d:/system/system_ability_2018/system_ability_2018/ip_repo/pwm_car/pwm_car_1.0/hdl/PWM_car_v1_0_S00_AXI.v:3]
+INFO: [Synth 8-638] synthesizing module 'PWM_Speed_Controller' [d:/system/system_ability_2018/system_ability_2018/ip_repo/pwm_car/edit_PWM_car_v1_0.srcs/sources_1/new/PWM_Speed_Controller.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PWM_Speed_Controller' (2#1) [d:/system/system_ability_2018/system_ability_2018/ip_repo/pwm_car/edit_PWM_car_v1_0.srcs/sources_1/new/PWM_Speed_Controller.v:23]
+INFO: [Synth 8-638] synthesizing module 'PWM_CAR_Controller' [d:/system/system_ability_2018/system_ability_2018/ip_repo/pwm_car/edit_PWM_car_v1_0.srcs/sources_1/new/PWM_CAR_Controller.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/system/system_ability_2018/system_ability_2018/ip_repo/pwm_car/edit_PWM_car_v1_0.srcs/sources_1/new/PWM_CAR_Controller.v:35]
+INFO: [Synth 8-256] done synthesizing module 'PWM_CAR_Controller' (3#1) [d:/system/system_ability_2018/system_ability_2018/ip_repo/pwm_car/edit_PWM_car_v1_0.srcs/sources_1/new/PWM_CAR_Controller.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PWM_car_v1_0' (4#1) [d:/system/system_ability_2018/system_ability_2018/ip_repo/pwm_car/pwm_car_1.0/hdl/PWM_car_v1_0.v:4]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 292.367 ; gain = 118.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 292.367 ; gain = 118.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 292.367 ; gain = 118.965
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-5545] ROM "buff" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 311.508 ; gain = 138.105
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 4     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+	   4 Input     32 Bit        Muxes := 5     
+	  10 Input     32 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   8 Input      3 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 9     
+	   7 Input      1 Bit        Muxes := 4     
+	  10 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module PWM_car_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+Module PWM_Speed_Controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+Module PWM_CAR_Controller 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	  10 Input     32 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	  10 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 437.539 ; gain = 264.137
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design PWM_car_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design PWM_car_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design PWM_car_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design PWM_car_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design PWM_car_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design PWM_car_v1_0 has unconnected port s00_axi_arprot[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 438.840 ; gain = 265.438
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 438.840 ; gain = 265.438
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\PWM_inst/state_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\PWM_w_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\PWM_w_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[31] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[30] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[29] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[28] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[27] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[26] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[25] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[24] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[23] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[22] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[21] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[20] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[19] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[18] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[17] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[16] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[15] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[14] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[13] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[12] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[11] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[10] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[9] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[8] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[7] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[6] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[5] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_inst/state_reg[4] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_w_v1_0_S00_AXI_inst/axi_awaddr_reg[1] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_w_v1_0_S00_AXI_inst/axi_awaddr_reg[0] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_w_v1_0_S00_AXI_inst/axi_bresp_reg[1] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_w_v1_0_S00_AXI_inst/axi_bresp_reg[0] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_w_v1_0_S00_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_w_v1_0_S00_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_w_v1_0_S00_AXI_inst/axi_rresp_reg[1] ) is unused and will be removed from module PWM_car_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\PWM_w_v1_0_S00_AXI_inst/axi_rresp_reg[0] ) is unused and will be removed from module PWM_car_v1_0.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 480.055 ; gain = 306.652
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 480.055 ; gain = 306.652
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 480.055 ; gain = 306.652
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 480.055 ; gain = 306.652
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 480.055 ; gain = 306.652
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 480.055 ; gain = 306.652
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 480.055 ; gain = 306.652
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 480.055 ; gain = 306.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 480.055 ; gain = 306.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 480.055 ; gain = 306.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |    11|
+|3     |LUT2 |     7|
+|4     |LUT3 |    11|
+|5     |LUT4 |    43|
+|6     |LUT5 |    14|
+|7     |LUT6 |    46|
+|8     |FDRE |   228|
+|9     |IBUF |    47|
+|10    |OBUF |    49|
++------+-----+------+
+
+Report Instance Areas: 
++------+--------------------------+-----------------------+------+
+|      |Instance                  |Module                 |Cells |
++------+--------------------------+-----------------------+------+
+|1     |top                       |                       |   457|
+|2     |  Controlle_Pwm0A         |PWM_Speed_Controller   |    11|
+|3     |  Controlle_Pwm0B         |PWM_Speed_Controller_0 |    11|
+|4     |  Controlle_Pwm2A         |PWM_Speed_Controller_1 |    11|
+|5     |  Controlle_Pwm2B         |PWM_Speed_Controller_2 |    11|
+|6     |  PWM_inst                |PWM_CAR_Controller     |    48|
+|7     |  PWM_w_v1_0_S00_AXI_inst |PWM_car_v1_0_S00_AXI   |   268|
++------+--------------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 480.055 ; gain = 306.652
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 43 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 480.055 ; gain = 267.863
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 480.055 ; gain = 306.652
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 47 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 5 inverter(s) to 59 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 43 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 518.551 ; gain = 307.516
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 518.551 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 11 21:48:41 2018...

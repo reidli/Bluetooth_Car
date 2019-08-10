@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Dec 26 09:06:19 2018
+# Process ID: 17960
+# Log file: D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/webtalk.log
+# Journal file: D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr\webtalk.jou
+#-----------------------------------------------------------
+source D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.hw/webtalk/labtool_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 968964327 -regid "" -xml D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.hw/webtalk/usage..."
+    (file "D:/system/system_ability_2018/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.hw/webtalk/labtool_webtalk.tcl" line 28)
+INFO: [Common 17-206] Exiting Webtalk at Wed Dec 26 09:06:24 2018...

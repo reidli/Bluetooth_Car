@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sun Dec 16 17:07:46 2018
+# Process ID: 16892
+# Log file: C:/Users/84397/Desktop/material/car20181216/system_ability_2018/ip_repo/Motor_driver/vivado.log
+# Journal file: C:/Users/84397/Desktop/material/car20181216/system_ability_2018/ip_repo/Motor_driver\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/84397/Desktop/material/car20181216/system_ability_2018/ip_repo/Motor_driver/edit_Motor_driver_v1_0.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/84397/Desktop/material/car20181216/system_ability_2018/ip_repo/Motor_driver'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/84397/Desktop/material/car20181216/system_ability_2018/ip_repo/Motor_driver/Motor_driver_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/84397/Desktop/material/car20181216/system_ability_2018/ip_repo/PWM_car/PWM_car_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/84397/Desktop/material/car20181216/system_ability_2018/ip_repo/PWM_w_Int_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/84397/Desktop/material/car20181216/system_ability_2018/ip_repo/my_mips_packaged'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 795.445 ; gain = 194.465
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 16 17:08:47 2018...

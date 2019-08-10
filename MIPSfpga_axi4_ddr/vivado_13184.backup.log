@@ -1,0 +1,119 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Dec 28 08:19:03 2018
+# Process ID: 3240
+# Log file: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/vivado.log
+# Journal file: C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/84397/Desktop/material/system_ability_20181227/ip_repo/RGB565_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/84397/Desktop/material/system_ability_20181227/ip_repo/RGB565_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/84397/Desktop/material/system_ability_20181227/ip_repo/car_by_li'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/84397/Desktop/material/system_ability_20181227/ip_repo/PWM_w_Int_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/84397/Desktop/material/system_ability_20181227/ip_repo/my_mips_packaged'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:01:00 ; elapsed = 00:01:17 . Memory (MB): peak = 1021.754 ; gain = 445.828
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1021.754 ; gain = 0.000
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292746934A
+set_property PROGRAM.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper.bit} [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a100t_0 and the probes file C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/debug_nets.ltx.
+The device design has 0 ILA core(s) and 0 VIO core(s). The probes file has 1 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file OR
+2. Goto device properties and associate the correct probes file with the programming file already programmed in the device.
+set_property PROBES.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1031.461 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1041.430 ; gain = 9.969
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1]
+run_hw_ila hw_ila_1
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-28 08:39:08
+wait_on_hw_ila hw_ila_1
+wait_on_hw_ila: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1073.668 ; gain = 0.000
+display_hw_ila_data [upload_hw_ila_data hw_ila_1]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-28 08:39:10
+upload_hw_ila_data: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1073.668 ; gain = 0.000
+run_hw_ila hw_ila_1 -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-28 08:40:26
+wait_on_hw_ila hw_ila_1
+wait_on_hw_ila: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1084.059 ; gain = 0.000
+display_hw_ila_data [upload_hw_ila_data hw_ila_1]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-28 08:40:28
+upload_hw_ila_data: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1084.059 ; gain = 0.000
+close_hw
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.hw/webtalk/labtool_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 56.023 ; gain = 0.000
+
+    while executing
+"webtalk_transmit -clientid 1927108462 -regid "" -xml C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.hw/webtal..."
+    (file "C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.hw/webtalk/labtool_webtalk.tcl" line 28)
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 28 08:41:37 2018...
+close_hw: Time (s): cpu = 00:00:03 ; elapsed = 00:00:17 . Memory (MB): peak = 1084.059 ; gain = 0.000
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1084.059 ; gain = 0.000
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292746934A
+open_hw_target: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1084.059 ; gain = 0.000
+set_property PROGRAM.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper.bit} [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1084.418 ; gain = 0.359
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1]
+set_property PROBES.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/84397/Desktop/material/system_ability_20181227/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1084.418 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 1084.418 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 28 08:47:10 2018...
